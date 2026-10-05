@@ -7,17 +7,16 @@ import {
   LayoutGrid,
   List,
   Compass,
+  Film,
 } from 'lucide-react';
 import { MovieItem, api } from '../lib/api.ts';
 import { MovieCard } from '../components/MovieCard.tsx';
 import { RatingStars } from '../components/RatingStars.tsx';
+import { getMoviePosterUrl } from '../lib/movieImages.ts';
+import { useCatalog, CatalogFilters } from '../context/CatalogContext.tsx';
 
 interface MoviesPageProps {
-  initialFilter?: {
-    search?: string;
-    genre?: string;
-    sort?: string;
-  };
+  initialFilter?: Partial<CatalogFilters>;
   onSelectMovie: (movieId: number) => void;
   onPlayTrailer: (movie: MovieItem) => void;
 }
@@ -27,45 +26,80 @@ export const MoviesPage: React.FC<MoviesPageProps> = ({
   onSelectMovie,
   onPlayTrailer,
 }) => {
+  const {
+    search,
+    genre,
+    language,
+    year,
+    minRating,
+    sort,
+    currentPage,
+    viewMode,
+    catalogScrollY,
+    setSearch,
+    setGenre,
+    setLanguage,
+    setYear,
+    setMinRating,
+    setSort,
+    setCurrentPage,
+    setViewMode,
+    setCatalogScrollY,
+    updateFilters,
+    resetFilters,
+    hasActiveFilters,
+  } = useCatalog();
+
   const [movies, setMovies] = useState<MovieItem[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [totalCount, setTotalCount] = useState<number>(0);
-  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
-  const [currentPage, setCurrentPage] = useState<number>(1);
   const pageSize = 24;
 
-  // Filter States
-  const [search, setSearch] = useState<string>(initialFilter?.search || '');
-  const [genre, setGenre] = useState<string>(initialFilter?.genre || 'all');
-  const [language, setLanguage] = useState<string>('all');
-  const [year, setYear] = useState<string>('all');
-  const [minRating, setMinRating] = useState<number>(0);
-  const [sort, setSort] = useState<string>(initialFilter?.sort || 'popular');
+  // Local state for smooth typing in search input
+  const [searchInput, setSearchInput] = useState<string>(search);
 
-  // Debounced search query
-  const [debouncedSearch, setDebouncedSearch] = useState<string>(search);
-
+  // Synchronize local input if context search changed externally
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setDebouncedSearch(search);
-      setCurrentPage(1);
-    }, 300);
-    return () => clearTimeout(timer);
+    setSearchInput(search);
   }, [search]);
 
-  // Update if initialFilter changes externally (e.g. from navbar or genre click)
+  // Debounced search query update
   useEffect(() => {
-    if (initialFilter?.search !== undefined) setSearch(initialFilter.search);
-    if (initialFilter?.genre !== undefined) setGenre(initialFilter.genre);
-    if (initialFilter?.sort !== undefined) setSort(initialFilter.sort);
-    setCurrentPage(1);
+    const timer = setTimeout(() => {
+      if (searchInput !== search) {
+        setSearch(searchInput);
+      }
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [searchInput]);
+
+  // Update if initialFilter is explicitly supplied from external props
+  useEffect(() => {
+    if (initialFilter && Object.keys(initialFilter).length > 0) {
+      updateFilters(initialFilter);
+    }
   }, [initialFilter]);
+
+  // Restore scroll position when returning from movie details
+  useEffect(() => {
+    if (catalogScrollY > 0) {
+      const timer = setTimeout(() => {
+        window.scrollTo({ top: catalogScrollY, behavior: 'instant' as any });
+      }, 50);
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
+  const handleSelectMovieWithScroll = (movieId: number) => {
+    setCatalogScrollY(window.scrollY);
+    onSelectMovie(movieId);
+  };
 
   const fetchMovies = async () => {
     setLoading(true);
     try {
       const data = await api.movies.list({
-        search: debouncedSearch.trim() || undefined,
+        search: search.trim() || undefined,
         genre: genre !== 'all' ? genre : undefined,
         language: language !== 'all' ? language : undefined,
         year: year !== 'all' ? year : undefined,
@@ -85,25 +119,12 @@ export const MoviesPage: React.FC<MoviesPageProps> = ({
 
   useEffect(() => {
     fetchMovies();
-  }, [debouncedSearch, genre, language, year, minRating, sort, currentPage]);
+  }, [search, genre, language, year, minRating, sort, currentPage]);
 
-  const resetFilters = () => {
-    setSearch('');
-    setGenre('all');
-    setLanguage('all');
-    setYear('all');
-    setMinRating(0);
-    setSort('popular');
-    setCurrentPage(1);
+  const handleResetFilters = () => {
+    setSearchInput('');
+    resetFilters();
   };
-
-  const hasActiveFilters =
-    search.trim() !== '' ||
-    genre !== 'all' ||
-    language !== 'all' ||
-    year !== 'all' ||
-    minRating > 0 ||
-    sort !== 'popular';
 
   const genresList = [
     { label: 'All Genres', value: 'all' },
@@ -214,13 +235,16 @@ export const MoviesPage: React.FC<MoviesPageProps> = ({
           <input
             type="text"
             placeholder="Search by title, director, cast members, or keyword..."
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            value={searchInput}
+            onChange={(e) => setSearchInput(e.target.value)}
             className="w-full bg-slate-950 text-sm text-white placeholder-slate-500 pl-11 pr-10 py-3 rounded-2xl border border-slate-800 focus:outline-none focus:border-amber-400 focus:ring-1 focus:ring-amber-400"
           />
-          {search && (
+          {searchInput && (
             <button
-              onClick={() => setSearch('')}
+              onClick={() => {
+                setSearchInput('');
+                setSearch('');
+              }}
               className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white p-1"
             >
               <X className="w-4 h-4" />
@@ -322,7 +346,7 @@ export const MoviesPage: React.FC<MoviesPageProps> = ({
               {search && (
                 <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-800 text-slate-200 border border-slate-700">
                   Search: "{search}"
-                  <button onClick={() => setSearch('')}>
+                  <button onClick={() => { setSearchInput(''); setSearch(''); }}>
                     <X className="w-3 h-3 hover:text-white" />
                   </button>
                 </span>
@@ -362,7 +386,7 @@ export const MoviesPage: React.FC<MoviesPageProps> = ({
             </div>
 
             <button
-              onClick={resetFilters}
+              onClick={handleResetFilters}
               className="flex items-center gap-1 text-amber-400 hover:text-amber-300 font-semibold"
             >
               <RotateCcw className="w-3.5 h-3.5" />
@@ -391,7 +415,7 @@ export const MoviesPage: React.FC<MoviesPageProps> = ({
             We couldn't find any movies matching your current search or filter combination.
           </p>
           <button
-            onClick={resetFilters}
+            onClick={handleResetFilters}
             className="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs shadow-lg transition-all"
           >
             Clear All Filters
@@ -403,7 +427,7 @@ export const MoviesPage: React.FC<MoviesPageProps> = ({
             <MovieCard
               key={movie.id}
               movie={movie}
-              onSelect={onSelectMovie}
+              onSelect={handleSelectMovieWithScroll}
               onPlayTrailer={onPlayTrailer}
             />
           ))}
@@ -414,14 +438,20 @@ export const MoviesPage: React.FC<MoviesPageProps> = ({
           {movies.map((movie) => (
             <div
               key={movie.id}
-              onClick={() => onSelectMovie(movie.id)}
+              onClick={() => handleSelectMovieWithScroll(movie.id)}
               className="glass-panel p-4 rounded-2xl border border-slate-800 hover:border-amber-500/40 transition-all flex flex-col sm:flex-row items-start sm:items-center gap-4 cursor-pointer group"
             >
-              <img
-                src={movie.poster_url}
-                alt={movie.title}
-                className="w-16 h-24 object-cover rounded-xl shrink-0 bg-slate-950"
-              />
+              {getMoviePosterUrl(movie) ? (
+                <img
+                  src={getMoviePosterUrl(movie)}
+                  alt={movie.title}
+                  className="w-16 h-24 object-cover rounded-xl shrink-0 bg-slate-950"
+                />
+              ) : (
+                <div className="w-16 h-24 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center shrink-0 text-slate-500">
+                  <Film className="w-6 h-6 stroke-[1.5]" />
+                </div>
+              )}
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 text-xs text-slate-400 mb-1">
                   <span className="font-semibold text-slate-300">{movie.release_year}</span>

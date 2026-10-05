@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { AuthProvider } from './context/AuthContext.tsx';
 import { ToastProvider } from './context/ToastContext.tsx';
 import { ThemeProvider, useTheme } from './context/ThemeContext.tsx';
+import { CatalogProvider, useCatalog } from './context/CatalogContext.tsx';
 import { Navbar } from './components/Navbar.tsx';
 import { AuthModal } from './components/AuthModal.tsx';
 import { TrailerModal } from './components/TrailerModal.tsx';
@@ -18,16 +19,21 @@ import { Film, Heart, Shield, Star, Sparkles, Compass } from 'lucide-react';
 
 function AppContent() {
   const { isLight } = useTheme();
+  const { updateFilters } = useCatalog();
   const [currentView, setCurrentView] = useState<string>('home');
   const [selectedMovieId, setSelectedMovieId] = useState<number | null>(null);
-  const [movieFilters, setMovieFilters] = useState<{ search?: string; genre?: string; language?: string; sort?: string }>({});
   const [activeTrailerMovie, setActiveTrailerMovie] = useState<MovieItem | null>(null);
 
   const handleNavigate = (view: string, data?: any) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Only scroll to top if not returning to preserved catalog
+    if (view !== 'movies' || (data && Object.keys(data).length > 0)) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
 
     if (view === 'movies') {
-      setMovieFilters(data || {});
+      if (data && Object.keys(data).length > 0) {
+        updateFilters(data);
+      }
       setCurrentView('movies');
     } else if (view === 'movie-details') {
       const id = typeof data === 'object' && data !== null 
@@ -38,7 +44,7 @@ function AppContent() {
       recordRecentlyViewedId(safeId);
       setCurrentView('movie-details');
     } else if (view === 'top-rated') {
-      setMovieFilters({ sort: 'rating' });
+      updateFilters({ sort: 'rating', currentPage: 1 });
       setCurrentView('movies');
     } else {
       setCurrentView(view);
@@ -83,7 +89,6 @@ function AppContent() {
 
         {currentView === 'movies' && (
           <MoviesPage
-            initialFilter={movieFilters}
             onSelectMovie={handleSelectMovie}
             onPlayTrailer={handlePlayTrailer}
           />
@@ -226,7 +231,9 @@ export default function App() {
     <ThemeProvider>
       <AuthProvider>
         <ToastProvider>
-          <AppContent />
+          <CatalogProvider>
+            <AppContent />
+          </CatalogProvider>
         </ToastProvider>
       </AuthProvider>
     </ThemeProvider>
