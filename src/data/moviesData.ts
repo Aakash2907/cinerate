@@ -370,7 +370,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A covert black-ops commander leads a vigilante squad to dismantle a ruthless drug cartel empire.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=OKBMCL-frPU",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -387,7 +387,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A quiet cafe owner in Himachal Pradesh is confronted by notorious gangsters who believe he is a deadly mob enforcer.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=Po3jStA673E",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 4100
@@ -404,7 +404,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A retired prison warden steps out of seclusion when an idol smuggling syndicate threatens his family.",
     "poster_url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/watch?v=xenOE1Tma0A",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3900
@@ -421,7 +421,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Vandiyathevan journeys across the Chola kingdom carrying secret messages amidst internal palace conspiracies.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=D4qAQYLGZVM",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3500
@@ -438,7 +438,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The climactic battle for the throne of the Chola dynasty as ancient rivalries and buried passions explode.",
     "poster_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "trailer_url": "https://www.youtube.com/watch?v=B7kWkO0Z7c4",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3300
@@ -455,7 +455,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A mild-mannered auto driver conceals a fearsome underworld past as Bombay's legendary crime boss Manik Baashha.",
     "poster_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=M8w3HkU4a8w",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4500
@@ -472,7 +472,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The rise of a young runaway into the revered godfather and protector of Bombay's Tamil slum community.",
     "poster_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=p6M0q5lZk8M",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4600
@@ -489,7 +489,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An arrogant ad filmmaker and a scarred, compassionate socialist bond during an unexpected journey from Bhubaneswar.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+    "trailer_url": "https://www.youtube.com/watch?v=Y1_uX0q7Z-8",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4300
@@ -506,7 +506,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Four interconnected storylines explore morality, identity, and humanity on one fateful day in Chennai.",
     "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+    "trailer_url": "https://www.youtube.com/watch?v=3-Xq_ZCX328",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3600
@@ -523,7 +523,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A paroled prisoner agrees to drive a truckload of unconscious cops to safety through a night of intense cartel ambushes.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=gczTWBeeiio",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3800
@@ -540,7 +540,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A peaceful farmer with a bloody past is forced to flee into the forests to protect his son from vengeful landlords.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=vOCM_Qid7g8",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3700
@@ -557,7 +557,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A talented carrom player in North Chennai becomes ensnared in a decades-long rivalry between warring gang leaders.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/watch?v=6L6n37m5Tsg",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -574,7 +574,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An unorthodox alcoholic college professor is posted to a juvenile detention center to clash with an extortionist.",
     "poster_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=1_iU7rJiU1g",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3600
@@ -591,7 +591,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An army intelligence officer on vacation in Mumbai uncovers and dismantles a web of sleeper cell terrorists.",
     "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "trailer_url": "https://www.youtube.com/watch?v=u3KqG5v6nBw",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 4100
@@ -608,7 +608,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A small-time con artist assumes the identity of a social crusader fighting against corporate water exploitation.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=b3iN_eK5k8g",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3800
@@ -625,7 +625,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A magician and an ethical doctor join forces to expose rampant corruption and medical malpractice.",
     "poster_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=gQDo5QuZTaw",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3700
@@ -642,7 +642,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A former footballer turned crime boss takes over coaching a women's football team to honor his late father's dream.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+    "trailer_url": "https://www.youtube.com/watch?v=GR-Ui8-V2M0",
     "featured": false,
     "average_rating": 4.6,
     "rating_count": 3200
@@ -659,7 +659,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A kabaddi player from Chennai rescues a young woman in Madurai from a psychotic faction leader.",
     "poster_url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+    "trailer_url": "https://www.youtube.com/watch?v=YgY5Ff2k9eE",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4400
@@ -676,7 +676,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A ruthless mercenary working for mafia syndicates is secretly an undercover IPS officer taking down the underworld.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=8F8v1e2m4nE",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3600
@@ -693,7 +693,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A suspended daredevil cop leads a rogue gang in a high-stakes 500-crore IPL betting heist.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=fB7qK7wE1uI",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3900
@@ -710,7 +710,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "When international arms dealer David Billa is fatally wounded, police recruit his lookalike to infiltrate the cartel.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Billa%202007%20official%20trailer",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3300
@@ -846,7 +846,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "In 1970s North Madras, an underdog laborer rises to champion his historic boxing clan against an unbeatable opponent.",
     "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=YV7vO8z_F50",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3800
@@ -863,7 +863,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A political feud erupts in North Chennai over ownership of a prestigious neighborhood wall used for party propaganda.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Madras%202014%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3200
@@ -880,7 +880,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An idealistic law student from an oppressed caste struggles for dignity amidst systemic university prejudice.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=3g0c8c-1F1M",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -914,7 +914,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An oppressed community MLA and his son stand resolute against the entitled arrogance of a dominant caste leader.",
     "poster_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=bKx0K3C8WnU",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -931,7 +931,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An ex-air force captain embarks on an uphill battle to launch India's first low-cost airline so common people can fly.",
     "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=fa_DIwRsa9o",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4300
@@ -948,7 +948,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A dedicated human rights lawyer battles against state police brutality to seek justice for an impoverished tribal woman.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+    "trailer_url": "https://www.youtube.com/watch?v=Gc6dEDnL8JA",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4500
@@ -1016,7 +1016,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An unbending police inspector chases a notorious gangster who challenges his moral convictions with riddles.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/watch?v=1sNr6hhWf0A",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -1033,7 +1033,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two high school sweethearts reunite at a class reunion after 22 years and reflect on memories of lost love.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=r0ox3m_e7lE",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4100
@@ -1067,7 +1067,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An aspiring film director travels to Madurai to spy on a bloodthirsty gangster for a script and gets entangled.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=Kk02z5-dFkE",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -1084,7 +1084,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A tribal gangster in 1970s Tamil Nadu attempts to become a cinema hero with the help of an eccentric undercover cop.",
     "poster_url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=Kk02z5-dFkE",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3200
@@ -1101,7 +1101,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An aspiring filmmaker becomes a police officer and tracks down a psychopathic killer abducting young schoolgirls.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+    "trailer_url": "https://www.youtube.com/watch?v=gsfaB_8nJco",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4300
@@ -1118,7 +1118,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A London-educated young man returns home and is forced to shoulder his ancestral village chieftain responsibilities.",
     "poster_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+    "trailer_url": "https://www.youtube.com/watch?v=x2k1w3m8n7b",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -1152,7 +1152,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A death-row convict recounts the tragic rural clan dispute that led to massacre, revealed via the Rashomon effect.",
     "poster_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=m4n7b9v2c1x",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3600
@@ -1169,7 +1169,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Kamal Haasan portrays ten different characters involved in safeguarding a deadly synthetic biological weapon.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Dasavathaaram%202008%20official%20trailer",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3500
@@ -1203,7 +1203,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An aged freedom fighter Senapathy takes the law into his own hands using ancient Varma Kalai to root out corruption.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "trailer_url": "https://www.youtube.com/watch?v=v9c1x3m8n7b",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4400
@@ -1220,7 +1220,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A daring TV journalist accepts a challenge from a corrupt Chief Minister to run the state for one transformative day.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=k2w8n7b9v1c",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4300
@@ -1237,7 +1237,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A mild lawyer suffering from multiple personality disorder becomes a vigilante punishing rulebreakers using Garuda Purana.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=n7b9v1c3m8k",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4400
@@ -1288,7 +1288,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An autistic gravedigger who grew up in a cremation ground forms an unlikely bond with an energetic con artist.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=c3m8k2w8n7b",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -1322,7 +1322,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A fierce rebel leader abducts the wife of a police superintendent, leading to a clash in deep rainforests.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Raavanan%202010%20official%20trailer",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3200
@@ -1339,7 +1339,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A modern-day Karna and Duryodhana dynamic unfolds as an abandoned child becomes the fiercest warrior of a slum boss.",
     "poster_url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=w8n7b9v1c3m",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4500
@@ -1356,7 +1356,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A village bride moves heaven and earth to rescue her cryptographer husband who has been kidnapped by militants in Kashmir.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "trailer_url": "https://www.youtube.com/watch?v=b9v1c3m8k2w",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -1373,7 +1373,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An interfaith couple flees to Bombay hoping for peace, only to be caught in the 1993 citywide communal riots.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=v1c3m8k2w8n",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4100
@@ -1390,7 +1390,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A young couple elopes against their parents' wishes and faces the harsh emotional realities of early marriage.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=1c3m8k2w8n7",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -1407,7 +1407,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An adopted daughter travels to war-torn Sri Lanka accompanied by her parents to meet her biological mother.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+    "trailer_url": "https://www.youtube.com/watch?v=3m8k2w8n7b9",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3800
@@ -1441,7 +1441,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The epic saga of friendship and political rivalry between a charismatic cinema idol and a passionate writer-poet.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=m8k2w8n7b9v",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3700
@@ -1458,7 +1458,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A rural rooster-fighting handler finds himself the target of his envious mentor's insidious schemes.",
     "poster_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=k2w8n7b9v1c",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3800
@@ -1475,7 +1475,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A young unemployed man's cherished motorcycle is stolen, dragging him into an underworld gang war.",
     "poster_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Polladhavan%202007%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3500
@@ -1509,7 +1509,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A food delivery worker copes with guilt and loneliness while finding comfort in his childhood best friend Shobana.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "trailer_url": "https://www.youtube.com/watch?v=y8w1k2n4m9v",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3800
@@ -1526,7 +1526,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A former British-Indian army soldier turns into a revolutionary dacoit fighting colonial oppressors.",
     "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
     "featured": true,
     "average_rating": 4.7,
     "rating_count": 3200
@@ -1560,7 +1560,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A free-spirited engineering student rebels against his strict disciplinary professor while finding his true passion.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+    "trailer_url": "https://www.youtube.com/watch?v=q0n8v1c3m8k",
     "featured": true,
     "average_rating": 4.7,
     "rating_count": 3300
@@ -1577,7 +1577,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A cowardly cartoonist begins hearing an omniscient voice that dictates heroic actions to battle corrupt building officials.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+    "trailer_url": "https://www.youtube.com/watch?v=v7b9v1c3m8k",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3600
@@ -1594,7 +1594,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The heroic true biographical account of Major Mukund Varadarajan and his valorous counter-terrorism operations in Kashmir.",
     "poster_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=hylIXfZeB4c",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4400
@@ -1611,7 +1611,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A quiet barber files a bizarre police complaint about his stolen dustbin Lakshmi, concealing a harrowing revenge plot.",
     "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=7gNfIqVkW0Y",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4500
@@ -1628,7 +1628,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A toxic six-year relationship unravels as jealousy, insecurity, and mutual codependency reach breaking point.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/watch?v=8h5n2v1c3m8",
     "featured": true,
     "average_rating": 4.6,
     "rating_count": 2800
@@ -1645,7 +1645,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An IT employee's severe snoring problem threatens his newly married life, leading to hilarious and touching dilemmas.",
     "poster_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=9v1c3m8k2w8",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -1662,7 +1662,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A schoolteacher wages an agonizing legal battle when her gentle father is accused of involvement in a terrible crime.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "trailer_url": "https://www.youtube.com/watch?v=1c3m8k2w8n7",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3600
@@ -1679,7 +1679,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A devoted paternal uncle's life is shattered when his niece goes missing in a town terrorized by predators.",
     "poster_url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=k2w8n7b9v1c",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -1696,7 +1696,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A trivial parking space dispute between two residential tenants escalates into a venomous psychological clash.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=3m8k2w8n7b9",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -1713,7 +1713,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A seasoned, cynical veteran cop and a timid academic recruit investigate a string of serial murders.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+    "trailer_url": "https://www.youtube.com/watch?v=m8k2w8n7b9v",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4100
@@ -1730,7 +1730,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An eighty-year-old traditional farmer stands as the sole custodian growing indigenous rice for the local deity.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+    "trailer_url": "https://www.youtube.com/watch?v=2w8n7b9v1c3",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3600
@@ -1747,7 +1747,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two slum brothers embark on an endearing quest to earn money and taste their first slice of pizza.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=w8n7b9v1c3m",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3700
@@ -1781,7 +1781,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A doting father cares for his daughter with cerebral palsy while confronting prejudice and the harsh realities of growing up.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/watch?v=b9v1c3m8k2w",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3500
@@ -1832,7 +1832,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A mechanic discovers a telephone that can communicate with the past, setting off a wild chain of alternate timelines.",
     "poster_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=v1c3m8k2w8n",
     "featured": true,
     "average_rating": 4.7,
     "rating_count": 3300
@@ -1849,7 +1849,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A bride's father challenges a young couple to exchange their unlocked smartphones for one single day before marriage.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=W1oX_t8p7B0",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3900
@@ -1883,7 +1883,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An encounter specialist cop who operates above the law is forced to question his morality by a stern judge.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+    "trailer_url": "https://www.youtube.com/watch?v=r4uFhTqP9eE",
     "featured": true,
     "average_rating": 4.7,
     "rating_count": 3700
@@ -1900,7 +1900,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A novice police constable stationed in an elusive hill outpost is torn between orders and humanity.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=k2w8n7b9v1c",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3600
@@ -1917,7 +1917,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The powerful conclusion exploring the ideological origins and struggle of rebel commander Vaathiyaar.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=m8k2w8n7b9v",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -1934,7 +1934,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A modern-day bounty hunter discovers a prehistoric destiny linking him to an ancient tribal warrior chieftain.",
     "poster_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/watch?v=ajZXENfomqk",
     "featured": true,
     "average_rating": 4.5,
     "rating_count": 3000
@@ -1951,7 +1951,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A courageous 19th-century tribal chieftain leads his people to excavate gold in Kolar against mythical spirits.",
     "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=tF3L7B0L4tQ",
     "featured": true,
     "average_rating": 4.7,
     "rating_count": 3300
@@ -1968,7 +1968,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A quiet fast-food stall owner is forced to unleash violence when underworld politicians target his younger siblings.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "trailer_url": "https://www.youtube.com/watch?v=qQZX_4OfH_U",
     "featured": true,
     "average_rating": 4.7,
     "rating_count": 3500
@@ -1985,7 +1985,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A fiercely loyal confidant is caught between devotion to his childhood benefactor and defending absolute truth.",
     "poster_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=5xH0Hf13u5g",
+    "trailer_url": "https://www.youtube.com/watch?v=2w8n7b9v1c3",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3200
@@ -2002,7 +2002,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A rural gully cricket rivalry between a veteran bowler and a cocky young batsman explodes into family drama.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=w8n7b9v1c3m",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -2019,7 +2019,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A bitter man returning to his native village after two decades is healed by a night with an affectionate relative.",
     "poster_url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+    "trailer_url": "https://www.youtube.com/watch?v=b9v1c3m8k2w",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4100
@@ -2036,7 +2036,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A silent woman in love with a man of another caste is escorted by her family on an intense auto-rickshaw journey.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+    "trailer_url": "https://www.youtube.com/watch?v=v1c3m8k2w8n",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3000
@@ -2053,7 +2053,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A heart-wrenching semi-autobiographical depiction of a young schoolboy carrying heavy banana bunches to survive.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=1c3m8k2w8n7",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4000
@@ -2070,7 +2070,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two rival cricket teams from opposing streets in Arakkonam battle caste prejudice and tournament politics.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=3m8k2w8n7b9",
     "featured": true,
     "average_rating": 4.7,
     "rating_count": 2900
@@ -2087,7 +2087,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Four amateur kidnappers kidnap the son of a state politician and encounter an insane police officer.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Soodhu%20Kavvum%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3700
@@ -2104,7 +2104,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An aspiring assistant director falls in love with his Christian landlord's daughter despite conservative family pushback.",
     "poster_url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=y8w1k2n4m9v",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -2155,7 +2155,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A wealthy businessman with short-term memory loss uses polaroid photos and body tattoos to hunt his lover's killer.",
     "poster_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=qtRKdVHc-cE",
+    "trailer_url": "https://www.youtube.com/watch?v=f4h7k8v9m2n",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4300
@@ -2189,7 +2189,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two legendary Indian revolutionaries fight against British colonial rulers in 1920s India.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+    "trailer_url": "https://www.youtube.com/watch?v=NgBoMJy386M",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4800
@@ -2206,7 +2206,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A young adventurous man discovers his royal heritage and the kingdom of Mahishmati.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=sOEg_YNguG4",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4600
@@ -2223,7 +2223,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shiva learns the truth behind the tragic death of his heroic father Amarendra Baahubali.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=G62HrubdD6o",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4900
@@ -2240,7 +2240,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "In a post-apocalyptic future, immortal protector Ashwatthama protects the carrier of the tenth avatar.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/watch?v=kQDd1AhGIHk",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 4200
@@ -2257,7 +2257,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A fearless laborer rises through the ranks of an illegal red sandalwood smuggling syndicate.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=pKctjlpbqpQ",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 4400
@@ -2274,7 +2274,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Pushpa Raj expands his sandalwood empire into international territories while battling Bhanwar Singh Shekhawat.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=Way9Dexny3w",
+    "trailer_url": "https://www.youtube.com/watch?v=g3JUbgFBZqE",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 4300
@@ -2325,7 +2325,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A Kambala champion clashes with an upright forest officer amidst the spiritual folklore of Panjurli Daiva.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+    "trailer_url": "https://www.youtube.com/watch?v=8mrVmf239GU",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4500
@@ -2359,7 +2359,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Former wrestler Mahavir Singh Phogat trains his daughters to win India's first Commonwealth gold in wrestling.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "trailer_url": "https://www.youtube.com/watch?v=x_7YlGv9u1g",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 5100
@@ -2376,7 +2376,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two college friends embark on a journey across India to locate their long-lost eccentric genius friend Rancho.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "trailer_url": "https://www.youtube.com/watch?v=K0eDlFX9GMc",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 5400
@@ -2393,7 +2393,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Villagers in colonial India wager their tax exemption on an impossible cricket match against British officers.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/watch?v=4x0d_oR8a1A",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4300
@@ -2410,7 +2410,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An empathetic art teacher discovers the hidden creative brilliance in an eight-year-old dyslexic boy.",
     "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=PLl99DlL6b4",
+    "trailer_url": "https://www.youtube.com/watch?v=tn_2Ie_jtNY",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4700
@@ -2546,7 +2546,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A greedy man seeks the hidden subterranean gold of the cursed demon god Hastar, unleashing horrific consequences.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Tumbbad%202018%20official%20trailer",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -2699,7 +2699,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A young man experiences the transformative magic of romance during three distinct stages of his life.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Premam%202015%20official%20trailer",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4600
@@ -2852,7 +2852,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam approaching Mount Doom.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=The%20Lord%20of%20the%20Rings%3A%20The%20Return%20of%20the%20King%202003%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3884
@@ -3005,7 +3005,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An imaginative Parisian waitress decides to orchestrate discreet acts of kindness to enrich the lives of people around her.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Am%C3%A9lie%202001%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 4001
@@ -3158,7 +3158,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A woman is put on trial for murder after her husband's fatal fall from their remote alpine chalet.",
     "poster_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Anatomy%20of%20a%20Fall%202023%20official%20trailer",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 4118
@@ -3328,7 +3328,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Paradox is an acclaimed horror masterwork directed by Nelson. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Paradox%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2378
@@ -3481,7 +3481,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Paradox is an acclaimed adventure masterwork directed by Mani Ratnam. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Paradox%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 211
@@ -3634,7 +3634,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Paradox is an acclaimed comedy masterwork directed by Ridley Scott. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Paradox%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 544
@@ -3787,7 +3787,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Frontier is an acclaimed action masterwork directed by S. Shankar. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Frontier%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 877
@@ -3940,7 +3940,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Frontier is an acclaimed fantasy masterwork directed by S. S. Rajamouli. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Frontier%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1210
@@ -4093,7 +4093,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Frontier is an acclaimed romance masterwork directed by Guillermo del Toro. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Frontier%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 1543
@@ -4246,7 +4246,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Sanctuary is an acclaimed sci-fi masterwork directed by Anurag Kashyap. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Sanctuary%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 1876
@@ -4399,7 +4399,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Sanctuary is an acclaimed animation masterwork directed by Quentin Tarantino. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Sanctuary%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 2209
@@ -4552,7 +4552,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Empire is an acclaimed crime masterwork directed by Wes Anderson. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Empire%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2542
@@ -4705,7 +4705,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Empire is an acclaimed drama masterwork directed by Christopher Nolan. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Empire%202013%20official%20trailer",
     "featured": true,
     "average_rating": 4.5,
     "rating_count": 375
@@ -4858,7 +4858,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Empire is an acclaimed biography masterwork directed by Vetrimaaran. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Empire%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 708
@@ -5011,7 +5011,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Dynasty is an acclaimed mystery masterwork directed by Karthik Subbaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Dynasty%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1041
@@ -5164,7 +5164,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Dynasty is an acclaimed thriller masterwork directed by Denis Villeneuve. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Dynasty%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1374
@@ -5317,7 +5317,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Dynasty is an acclaimed horror masterwork directed by Hayao Miyazaki. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Dynasty%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 1707
@@ -5470,7 +5470,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Resonance is an acclaimed adventure masterwork directed by Pa. Ranjith. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Resonance%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 2040
@@ -5623,7 +5623,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Resonance is an acclaimed comedy masterwork directed by Lokesh Kanagaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Resonance%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 2373
@@ -5776,7 +5776,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Convergence is an acclaimed action masterwork directed by Steven Spielberg. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Convergence%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 206
@@ -5929,7 +5929,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Convergence is an acclaimed fantasy masterwork directed by Gautham Vasudev Menon. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Convergence%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 539
@@ -6082,7 +6082,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Convergence is an acclaimed romance masterwork directed by Martin Scorsese. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Convergence%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 872
@@ -6235,7 +6235,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Mirage is an acclaimed sci-fi masterwork directed by Alfonso Cuarón. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Mirage%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1205
@@ -6388,7 +6388,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Mirage is an acclaimed animation masterwork directed by Jeethu Joseph. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Mirage%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1538
@@ -6541,7 +6541,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Mirage is an acclaimed crime masterwork directed by Bong Joon-ho. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Mirage%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 1871
@@ -6694,7 +6694,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Voyage is an acclaimed drama masterwork directed by Damien Chazelle. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Voyage%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 2204
@@ -6847,7 +6847,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Voyage is an acclaimed biography masterwork directed by David Fincher. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Voyage%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 2537
@@ -7000,7 +7000,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Reckoning is an acclaimed mystery masterwork directed by Mari Selvaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Reckoning%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 370
@@ -7153,7 +7153,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Reckoning is an acclaimed thriller masterwork directed by Nelson. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Reckoning%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 703
@@ -7306,7 +7306,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Reckoning is an acclaimed horror masterwork directed by Mani Ratnam. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Reckoning%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 1036
@@ -7459,7 +7459,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Enigma is an acclaimed adventure masterwork directed by Ridley Scott. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Enigma%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1369
@@ -7612,7 +7612,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Enigma is an acclaimed comedy masterwork directed by S. Shankar. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Enigma%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1702
@@ -7765,7 +7765,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Enigma is an acclaimed action masterwork directed by S. S. Rajamouli. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Enigma%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 2035
@@ -7918,7 +7918,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Ascent is an acclaimed fantasy masterwork directed by Guillermo del Toro. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Ascent%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 2368
@@ -8071,7 +8071,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Ascent is an acclaimed romance masterwork directed by Anurag Kashyap. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Ascent%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 201
@@ -8224,7 +8224,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Eclipse is an acclaimed sci-fi masterwork directed by Quentin Tarantino. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Eclipse%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 534
@@ -8377,7 +8377,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Eclipse is an acclaimed animation masterwork directed by Wes Anderson. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Eclipse%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 867
@@ -8530,7 +8530,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Eclipse is an acclaimed crime masterwork directed by Christopher Nolan. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Eclipse%202022%20official%20trailer",
     "featured": true,
     "average_rating": 4.2,
     "rating_count": 1200
@@ -8683,7 +8683,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Vanguard is an acclaimed drama masterwork directed by Vetrimaaran. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Vanguard%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1533
@@ -8836,7 +8836,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Vanguard is an acclaimed biography masterwork directed by Karthik Subbaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Vanguard%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1866
@@ -8989,7 +8989,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Vanguard is an acclaimed mystery masterwork directed by Denis Villeneuve. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Vanguard%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 2199
@@ -9142,7 +9142,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Horizon: Chapter 2 is an acclaimed thriller masterwork directed by Hayao Miyazaki. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Horizon%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 2532
@@ -9295,7 +9295,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Horizon: Chapter 2 is an acclaimed horror masterwork directed by Pa. Ranjith. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Horizon%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 365
@@ -9448,7 +9448,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Whisper: Chapter 2 is an acclaimed adventure masterwork directed by Lokesh Kanagaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Whisper%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 698
@@ -9601,7 +9601,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Whisper: Chapter 2 is an acclaimed comedy masterwork directed by Steven Spielberg. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Whisper%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 1031
@@ -9754,7 +9754,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Whisper: Chapter 2 is an acclaimed action masterwork directed by Gautham Vasudev Menon. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Whisper%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 1364
@@ -9907,7 +9907,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Odyssey: Chapter 2 is an acclaimed fantasy masterwork directed by Martin Scorsese. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Odyssey%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1697
@@ -10060,7 +10060,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Odyssey: Chapter 2 is an acclaimed romance masterwork directed by Alfonso Cuarón. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Odyssey%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2030
@@ -10213,7 +10213,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Odyssey: Chapter 2 is an acclaimed sci-fi masterwork directed by Jeethu Joseph. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Odyssey%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 2363
@@ -10366,7 +10366,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Labyrinth: Chapter 2 is an acclaimed animation masterwork directed by Bong Joon-ho. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Labyrinth%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 2696
@@ -10519,7 +10519,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Labyrinth: Chapter 2 is an acclaimed crime masterwork directed by Damien Chazelle. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Labyrinth%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 529
@@ -10672,7 +10672,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Chronicle: Chapter 2 is an acclaimed drama masterwork directed by David Fincher. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Chronicle%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 862
@@ -10825,7 +10825,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Chronicle: Chapter 2 is an acclaimed biography masterwork directed by Mari Selvaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Chronicle%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 1195
@@ -10978,7 +10978,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Chronicle: Chapter 2 is an acclaimed mystery masterwork directed by Nelson. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Chronicle%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 1528
@@ -11131,7 +11131,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Legacy: Chapter 2 is an acclaimed thriller masterwork directed by Mani Ratnam. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Legacy%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1861
@@ -11284,7 +11284,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Legacy: Chapter 2 is an acclaimed horror masterwork directed by Ridley Scott. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Legacy%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2194
@@ -11437,7 +11437,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Legacy: Chapter 2 is an acclaimed adventure masterwork directed by S. Shankar. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Legacy%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 2527
@@ -11590,7 +11590,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Symphony: Chapter 2 is an acclaimed comedy masterwork directed by S. S. Rajamouli. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Symphony%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 360
@@ -11743,7 +11743,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Symphony: Chapter 2 is an acclaimed action masterwork directed by Guillermo del Toro. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Symphony%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 693
@@ -11896,7 +11896,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Protocol: Chapter 2 is an acclaimed fantasy masterwork directed by Anurag Kashyap. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Protocol%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1026
@@ -12049,7 +12049,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Protocol: Chapter 2 is an acclaimed romance masterwork directed by Quentin Tarantino. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Protocol%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 1359
@@ -12202,7 +12202,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Protocol: Chapter 2 is an acclaimed sci-fi masterwork directed by Wes Anderson. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Protocol%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 1692
@@ -12355,7 +12355,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Paradox: Chapter 2 is an acclaimed animation masterwork directed by Christopher Nolan. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Paradox%3A%20Chapter%202%201995%20official%20trailer",
     "featured": true,
     "average_rating": 3.9,
     "rating_count": 2025
@@ -12508,7 +12508,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Paradox: Chapter 2 is an acclaimed crime masterwork directed by Vetrimaaran. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Paradox%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2358
@@ -12661,7 +12661,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Paradox: Chapter 2 is an acclaimed drama masterwork directed by Karthik Subbaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Paradox%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 2691
@@ -12814,7 +12814,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Frontier: Chapter 2 is an acclaimed biography masterwork directed by Denis Villeneuve. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Frontier%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 524
@@ -12967,7 +12967,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Frontier: Chapter 2 is an acclaimed mystery masterwork directed by Hayao Miyazaki. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Frontier%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 857
@@ -13120,7 +13120,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Sanctuary: Chapter 2 is an acclaimed thriller masterwork directed by Pa. Ranjith. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Sanctuary%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1190
@@ -13273,7 +13273,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Sanctuary: Chapter 2 is an acclaimed horror masterwork directed by Lokesh Kanagaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Sanctuary%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 1523
@@ -13426,7 +13426,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Sanctuary: Chapter 2 is an acclaimed adventure masterwork directed by Steven Spielberg. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Sanctuary%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 1856
@@ -13579,7 +13579,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Empire: Chapter 2 is an acclaimed comedy masterwork directed by Gautham Vasudev Menon. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Empire%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 2189
@@ -13732,7 +13732,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Empire: Chapter 2 is an acclaimed action masterwork directed by Martin Scorsese. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Empire%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2522
@@ -13885,7 +13885,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Empire: Chapter 2 is an acclaimed fantasy masterwork directed by Alfonso Cuarón. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Empire%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 355
@@ -14038,7 +14038,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Dynasty: Chapter 2 is an acclaimed romance masterwork directed by Jeethu Joseph. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Dynasty%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 688
@@ -14191,7 +14191,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Dynasty: Chapter 2 is an acclaimed sci-fi masterwork directed by Bong Joon-ho. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Dynasty%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1021
@@ -14344,7 +14344,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Resonance: Chapter 2 is an acclaimed animation masterwork directed by Damien Chazelle. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Resonance%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1354
@@ -14497,7 +14497,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Resonance: Chapter 2 is an acclaimed crime masterwork directed by David Fincher. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Resonance%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 1687
@@ -14650,7 +14650,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Resonance: Chapter 2 is an acclaimed drama masterwork directed by Mari Selvaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Resonance%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 2020
@@ -14803,7 +14803,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Convergence: Chapter 2 is an acclaimed biography masterwork directed by Nelson. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Convergence%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 2353
@@ -14956,7 +14956,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Convergence: Chapter 2 is an acclaimed mystery masterwork directed by Mani Ratnam. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Convergence%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2686
@@ -15109,7 +15109,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Convergence: Chapter 2 is an acclaimed thriller masterwork directed by Ridley Scott. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Convergence%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 519
@@ -15262,7 +15262,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Mirage: Chapter 2 is an acclaimed horror masterwork directed by S. Shankar. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Mirage%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 852
@@ -15415,7 +15415,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Mirage: Chapter 2 is an acclaimed adventure masterwork directed by S. S. Rajamouli. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Mirage%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1185
@@ -15568,7 +15568,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Voyage: Chapter 2 is an acclaimed comedy masterwork directed by Guillermo del Toro. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Voyage%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1518
@@ -15721,7 +15721,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Voyage: Chapter 2 is an acclaimed action masterwork directed by Anurag Kashyap. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Voyage%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 1851
@@ -15874,7 +15874,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Voyage: Chapter 2 is an acclaimed fantasy masterwork directed by Quentin Tarantino. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Voyage%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 2184
@@ -16027,7 +16027,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Reckoning: Chapter 2 is an acclaimed romance masterwork directed by Wes Anderson. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Reckoning%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 2517
@@ -16180,7 +16180,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Reckoning: Chapter 2 is an acclaimed sci-fi masterwork directed by Christopher Nolan. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Reckoning%3A%20Chapter%202%202004%20official%20trailer",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 350
@@ -16333,7 +16333,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Reckoning: Chapter 2 is an acclaimed animation masterwork directed by Vetrimaaran. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Reckoning%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 683
@@ -16486,7 +16486,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Enigma: Chapter 2 is an acclaimed crime masterwork directed by Karthik Subbaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Enigma%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 1016
@@ -16639,7 +16639,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Enigma: Chapter 2 is an acclaimed drama masterwork directed by Denis Villeneuve. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Enigma%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1349
@@ -16792,7 +16792,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Shadow Ascent: Chapter 2 is an acclaimed biography masterwork directed by Hayao Miyazaki. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Shadow%20Ascent%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 1682
@@ -16945,7 +16945,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Lost Ascent: Chapter 2 is an acclaimed mystery masterwork directed by Pa. Ranjith. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Lost%20Ascent%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 2015
@@ -17098,7 +17098,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Radiant Ascent: Chapter 2 is an acclaimed thriller masterwork directed by Lokesh Kanagaraj. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Radiant%20Ascent%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 2348
@@ -17251,7 +17251,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Golden Eclipse: Chapter 2 is an acclaimed horror masterwork directed by Steven Spielberg. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Golden%20Eclipse%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 2681
@@ -17404,7 +17404,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Rogue Eclipse: Chapter 2 is an acclaimed adventure masterwork directed by Gautham Vasudev Menon. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Rogue%20Eclipse%3A%20Chapter%202%202004%20official%20trailer",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 514
@@ -17557,7 +17557,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Echoing Eclipse: Chapter 2 is an acclaimed comedy masterwork directed by Martin Scorsese. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Echoing%20Eclipse%3A%20Chapter%202%202013%20official%20trailer",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 847
@@ -17710,7 +17710,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Hidden Vanguard: Chapter 2 is an acclaimed action masterwork directed by Alfonso Cuarón. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Hidden%20Vanguard%3A%20Chapter%202%202022%20official%20trailer",
     "featured": false,
     "average_rating": 4.2,
     "rating_count": 1180
@@ -17863,7 +17863,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Silver Vanguard: Chapter 2 is an acclaimed fantasy masterwork directed by Jeethu Joseph. A compelling cinematic journey examining resilience, destiny, and the human spirit.",
     "poster_url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
     "backdrop_url": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1600&auto=format&fit=crop",
-    "trailer_url": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "trailer_url": "https://www.youtube.com/results?search_query=Silver%20Vanguard%3A%20Chapter%202%201995%20official%20trailer",
     "featured": false,
     "average_rating": 3.9,
     "rating_count": 1513
