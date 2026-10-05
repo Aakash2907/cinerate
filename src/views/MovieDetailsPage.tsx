@@ -233,6 +233,9 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
   const userExistingReview = user ? reviews.find((r) => r.user_id === user.id) : null;
   const otherReviews = user ? reviews.filter((r) => r.user_id !== user.id) : reviews;
 
+  const clipPoster = getMoviePosterUrl(movie);
+  const clipBackdrop = getMovieBackdropUrl(movie);
+
   return (
     <div className="space-y-12 pb-24">
       {/* Back Button & Top Navigation */}
@@ -259,12 +262,18 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
       ======================================================== */}
       <div className="relative rounded-3xl overflow-hidden border border-slate-800/80 bg-slate-950 shadow-2xl">
         {/* Backdrop Banner Image */}
-        <div className="relative h-64 sm:h-80 lg:h-96 w-full overflow-hidden">
-          <img
-            src={getMovieBackdropUrl(movie)}
-            alt={movie.title}
-            className="w-full h-full object-cover filter brightness-75"
-          />
+        <div className="relative h-64 sm:h-80 lg:h-96 w-full overflow-hidden bg-slate-950">
+          {clipBackdrop ? (
+            <img
+              src={clipBackdrop}
+              alt={movie.title}
+              className="w-full h-full object-cover filter brightness-75"
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center bg-gradient-to-r from-slate-950 via-slate-900/60 to-slate-950">
+              <Film className="w-20 h-20 text-slate-800 stroke-[1]" />
+            </div>
+          )}
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent" />
         </div>
 
@@ -272,12 +281,29 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
         <div className="relative p-6 sm:p-10 -mt-28 sm:-mt-36 z-10">
           <div className="flex flex-col md:flex-row gap-8 items-start">
             {/* Poster Column */}
-            <div className="w-44 sm:w-56 lg:w-64 shrink-0 mx-auto md:mx-0 shadow-2xl rounded-2xl overflow-hidden border-2 border-slate-700/80 bg-slate-900">
-              <img
-                src={getMoviePosterUrl(movie)}
-                alt={movie.title}
-                className="w-full aspect-[2/3] object-cover"
-              />
+            <div className="w-44 sm:w-56 lg:w-64 shrink-0 mx-auto md:mx-0 shadow-2xl rounded-2xl overflow-hidden border-2 border-slate-700/80 bg-slate-900 aspect-[2/3] flex items-center justify-center">
+              {clipPoster ? (
+                <img
+                  src={clipPoster}
+                  alt={movie.title}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <div className="w-full h-full flex flex-col items-center justify-center p-5 text-center bg-gradient-to-b from-slate-900 to-slate-950 select-none">
+                  <div className="w-14 h-14 rounded-2xl bg-slate-800/90 border border-slate-700/60 flex items-center justify-center text-slate-500 mb-3 shadow-inner">
+                    <Film className="w-7 h-7 stroke-[1.5]" />
+                  </div>
+                  <h4 className="font-heading font-bold text-sm text-slate-300 leading-snug line-clamp-2 px-1">
+                    {movie.title}
+                  </h4>
+                  <span className="text-[11px] text-slate-500 mt-1">
+                    {movie.release_year} • {movie.genre}
+                  </span>
+                  <span className="mt-3 px-2 py-0.5 rounded text-[10px] font-medium bg-slate-800/80 text-slate-400 border border-slate-700/50">
+                    Poster Unavailable
+                  </span>
+                </div>
+              )}
             </div>
 
             {/* Movie Info Column */}

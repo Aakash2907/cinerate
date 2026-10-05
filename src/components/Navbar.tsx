@@ -215,11 +215,17 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate, onSearc
                       onClick={() => handleSelectMovieResult(m.id)}
                       className="flex items-center gap-3 p-2 rounded-xl hover:bg-slate-800/80 cursor-pointer transition-colors"
                     >
-                      <img
-                        src={getMoviePosterUrl(m)}
-                        alt={m.title}
-                        className="w-10 h-14 object-cover rounded-lg shrink-0 bg-slate-950"
-                      />
+                      {getMoviePosterUrl(m) ? (
+                        <img
+                          src={getMoviePosterUrl(m)}
+                          alt={m.title}
+                          className="w-10 h-14 object-cover rounded-lg shrink-0 bg-slate-950"
+                        />
+                      ) : (
+                        <div className="w-10 h-14 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center shrink-0 text-slate-500">
+                          <Film className="w-4 h-4 stroke-[1.5]" />
+                        </div>
+                      )}
                       <div className="flex-1 min-w-0">
                         <h4 className="text-sm font-semibold text-white truncate">{m.title}</h4>
                         <div className="flex items-center gap-2 text-xs text-slate-400">

@@ -278,11 +278,17 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onSelectMovie }) => {
                     <tr key={m.id} className="hover:bg-slate-800/40 transition-colors">
                       <td className="p-4">
                         <div className="flex items-center gap-3">
-                          <img
-                            src={getMoviePosterUrl(m)}
-                            alt={m.title}
-                            className="w-10 h-14 object-cover rounded-lg shrink-0 bg-slate-950"
-                          />
+                          {getMoviePosterUrl(m) ? (
+                            <img
+                              src={getMoviePosterUrl(m)}
+                              alt={m.title}
+                              className="w-10 h-14 object-cover rounded-lg shrink-0 bg-slate-950"
+                            />
+                          ) : (
+                            <div className="w-10 h-14 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center shrink-0 text-slate-500">
+                              <Film className="w-4 h-4 stroke-[1.5]" />
+                            </div>
+                          )}
                           <div>
                             <span
                               onClick={() => onSelectMovie(m.id)}

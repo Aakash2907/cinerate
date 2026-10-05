@@ -11,6 +11,7 @@ import {
   Trash2,
   Save,
   CheckCircle,
+  Film,
 } from 'lucide-react';
 import { MovieItem, ReviewItem, api } from '../lib/api.ts';
 import { getMoviePosterUrl } from '../lib/movieImages.ts';
@@ -298,12 +299,21 @@ export const ProfilePage: React.FC<ProfilePageProps> = ({
                   key={movie_id}
                   className="glass-panel p-4 rounded-2xl border border-slate-800 hover:border-slate-700 transition-all flex items-center gap-4"
                 >
-                  <img
-                    src={getMoviePosterUrl(movie)}
-                    alt={movie?.title}
-                    onClick={() => onSelectMovie(movie_id)}
-                    className="w-14 h-20 object-cover rounded-xl shrink-0 cursor-pointer"
-                  />
+                  {getMoviePosterUrl(movie) ? (
+                    <img
+                      src={getMoviePosterUrl(movie)}
+                      alt={movie?.title}
+                      onClick={() => onSelectMovie(movie_id)}
+                      className="w-14 h-20 object-cover rounded-xl shrink-0 cursor-pointer"
+                    />
+                  ) : (
+                    <div
+                      onClick={() => onSelectMovie(movie_id)}
+                      className="w-14 h-20 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center shrink-0 text-slate-500 cursor-pointer"
+                    >
+                      <Film className="w-5 h-5 stroke-[1.5]" />
+                    </div>
+                  )}
                   <div className="flex-1 min-w-0">
                     <h4
                       onClick={() => onSelectMovie(movie_id)}

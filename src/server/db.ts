@@ -1,6 +1,7 @@
 import { Pool } from 'pg';
 import bcrypt from 'bcryptjs';
 import { MOVIES_DATASET } from '../data/moviesData.ts';
+import { COMMUNITY_USERS, generateSeedReviewsAndRatings } from '../data/seedReviews.ts';
 
 export interface User {
   id: number;
@@ -421,15 +422,19 @@ const initialWatchlist: WatchlistEntry[] = [
   { id: 6, user_id: 3, movie_id: 6, created_at: new Date('2024-03-05').toISOString() },
 ];
 
-// Initialize local store with cloned copies
-localStore.users = JSON.parse(JSON.stringify(initialUsers));
+// Initialize local store with cloned copies and generated community reviews
+const { reviews: seedReviews, ratings: seedRatings } = generateSeedReviewsAndRatings(MOVIES_DATASET);
+
+localStore.users = JSON.parse(JSON.stringify(COMMUNITY_USERS));
 localStore.movies = MOVIES_DATASET.map((m) => ({
   ...m,
   created_at: new Date(2024, 0, 1 + (m.id % 300)).toISOString(),
 }));
 localStore.nextIds.movies = 2500;
-localStore.ratings = JSON.parse(JSON.stringify(initialRatings));
-localStore.reviews = JSON.parse(JSON.stringify(initialReviews));
+localStore.ratings = seedRatings;
+localStore.reviews = seedReviews;
+localStore.nextIds.ratings = seedRatings.length + 1;
+localStore.nextIds.reviews = seedReviews.length + 1;
 localStore.watchlist = JSON.parse(JSON.stringify(initialWatchlist));
 
 // Database initialization

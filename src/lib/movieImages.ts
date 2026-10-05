@@ -55,6 +55,10 @@ export const CURATED_MOVIE_CLIP_FRAMES: Record<string, { poster: string; backdro
     poster: 'https://img.youtube.com/vi/Way9Dexny3w/hqdefault.jpg',
     backdrop: 'https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg',
   },
+  'dune': {
+    poster: 'https://img.youtube.com/vi/n9xhJrPXop4/hqdefault.jpg',
+    backdrop: 'https://img.youtube.com/vi/n9xhJrPXop4/maxresdefault.jpg',
+  },
   'parasite': {
     poster: 'https://img.youtube.com/vi/5xH0Hf13u5g/hqdefault.jpg',
     backdrop: 'https://img.youtube.com/vi/5xH0Hf13u5g/maxresdefault.jpg',
@@ -174,10 +178,11 @@ export const CURATED_MOVIE_CLIP_FRAMES: Record<string, { poster: string; backdro
 };
 
 /**
- * Resolves the video ID associated with this movie
+ * Resolves the verified video ID associated with this movie
+ * Returns null if no verified trailer exists for this specific movie.
  */
 export function getMovieVideoId(movie?: Partial<MovieItem> | null): string | null {
-  if (!movie) return null;
+  if (!movie || !movie.title) return null;
   const cleanTitle = (movie.title || '').toLowerCase().replace(/[^\w\s:]/gi, '').trim();
 
   // 1. Check verified list
@@ -185,21 +190,21 @@ export function getMovieVideoId(movie?: Partial<MovieItem> | null): string | nul
     return VERIFIED_TRAILERS[cleanTitle];
   }
 
-  // 2. Extract from trailer_url
-  const id = extractYouTubeId(movie.trailer_url);
-  if (id) {
-    return id;
+  // 2. If title is literally Interstellar
+  if (cleanTitle === 'interstellar') {
+    return 'zSWdZVtXT7E';
   }
 
   return null;
 }
 
 /**
- * Returns a high-definition movie clip frame directly from the movie trailer clip
+ * Returns a high-definition movie clip frame directly from the movie trailer clip.
+ * If trailer of the movie is NOT available, returns empty string ("") so the poster is left empty.
  */
 export function getMoviePosterUrl(movie?: Partial<MovieItem> | null): string {
-  if (!movie) {
-    return 'https://img.youtube.com/vi/qtRKdVHc-cE/hqdefault.jpg';
+  if (!movie || !movie.title) {
+    return '';
   }
 
   const cleanTitle = (movie.title || '').toLowerCase().replace(/[^\w\s:]/gi, '').trim();
@@ -209,31 +214,23 @@ export function getMoviePosterUrl(movie?: Partial<MovieItem> | null): string {
     return CURATED_MOVIE_CLIP_FRAMES[cleanTitle].poster;
   }
 
-  // 2. Check if current poster_url is already a valid YouTube clip frame
-  if (movie.poster_url && movie.poster_url.includes('img.youtube.com')) {
-    return movie.poster_url;
-  }
-
-  // 3. Extract YouTube ID to get real movie clip frame
+  // 2. Check if verified trailer exists for THIS movie
   const videoId = getMovieVideoId(movie);
   if (videoId) {
     return `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
   }
 
-  // 4. If current poster is non-unsplash, keep it, otherwise use movie clip fallback
-  if (movie.poster_url && !movie.poster_url.includes('images.unsplash.com')) {
-    return movie.poster_url;
-  }
-
-  return 'https://img.youtube.com/vi/qtRKdVHc-cE/hqdefault.jpg';
+  // 3. Trailer not available -> leave poster empty
+  return '';
 }
 
 /**
- * Returns the widescreen movie clip backdrop directly from the movie trailer clip
+ * Returns the widescreen movie clip backdrop directly from the movie trailer clip.
+ * If trailer of the movie is NOT available, returns empty string ("").
  */
 export function getMovieBackdropUrl(movie?: Partial<MovieItem> | null): string {
-  if (!movie) {
-    return 'https://img.youtube.com/vi/qtRKdVHc-cE/maxresdefault.jpg';
+  if (!movie || !movie.title) {
+    return '';
   }
 
   const cleanTitle = (movie.title || '').toLowerCase().replace(/[^\w\s:]/gi, '').trim();
@@ -243,21 +240,12 @@ export function getMovieBackdropUrl(movie?: Partial<MovieItem> | null): string {
     return CURATED_MOVIE_CLIP_FRAMES[cleanTitle].backdrop;
   }
 
-  // 2. Check if current backdrop_url is already a YouTube clip frame
-  if (movie.backdrop_url && movie.backdrop_url.includes('img.youtube.com')) {
-    return movie.backdrop_url;
-  }
-
-  // 3. Extract YouTube ID to get real movie clip frame
+  // 2. Check if verified trailer exists for THIS movie
   const videoId = getMovieVideoId(movie);
   if (videoId) {
     return `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
   }
 
-  // 4. Fallback to poster or non-unsplash
-  if (movie.backdrop_url && !movie.backdrop_url.includes('images.unsplash.com')) {
-    return movie.backdrop_url;
-  }
-
-  return getMoviePosterUrl(movie);
+  // 3. Trailer not available -> leave backdrop empty
+  return '';
 }

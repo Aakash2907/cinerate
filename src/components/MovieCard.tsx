@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Star, Bookmark, Play, Clock, Sparkles } from 'lucide-react';
+import { Star, Bookmark, Play, Clock, Sparkles, Film } from 'lucide-react';
 import { MovieItem, api } from '../lib/api.ts';
 import { getMoviePosterUrl } from '../lib/movieImages.ts';
 import { useAuth } from '../context/AuthContext.tsx';
@@ -29,9 +29,7 @@ export const MovieCard: React.FC<MovieCardProps> = ({
   const [imgError, setImgError] = useState<boolean>(false);
 
   const clipPoster = getMoviePosterUrl(movie);
-  const activePoster = imgError
-    ? clipPoster
-    : (movie.poster_url && !movie.poster_url.includes('unsplash') ? movie.poster_url : clipPoster);
+  const activePoster = (clipPoster || (movie.poster_url && !movie.poster_url.includes('unsplash') ? movie.poster_url : ''));
 
   const handleWatchlistToggle = async (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -80,16 +78,34 @@ export const MovieCard: React.FC<MovieCardProps> = ({
     >
       {/* Poster Image Container */}
       <div className={`relative ${compact ? 'aspect-[3/4]' : 'aspect-[2/3]'} overflow-hidden bg-slate-950`}>
-        <img
-          src={activePoster}
-          alt={movie.title}
-          onError={() => setImgError(true)}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-          loading="lazy"
-        />
-
-        {/* Subtle Dark Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-70 group-hover:opacity-60 transition-opacity" />
+        {activePoster && !imgError ? (
+          <>
+            <img
+              src={activePoster}
+              alt={movie.title}
+              onError={() => setImgError(true)}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              loading="lazy"
+            />
+            {/* Subtle Dark Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-70 group-hover:opacity-60 transition-opacity" />
+          </>
+        ) : (
+          <div className="w-full h-full flex flex-col items-center justify-center p-4 bg-gradient-to-b from-slate-900 via-slate-900/95 to-slate-950 text-center select-none border-b border-slate-800/80">
+            <div className="w-12 h-12 rounded-2xl bg-slate-800/80 border border-slate-700/60 flex items-center justify-center text-slate-500 mb-3 shadow-inner group-hover:border-amber-500/40 group-hover:text-amber-400 transition-colors">
+              <Film className="w-6 h-6 stroke-[1.5]" />
+            </div>
+            <span className="font-heading font-bold text-xs text-slate-300 line-clamp-2 px-2 leading-snug">
+              {movie.title}
+            </span>
+            <span className="text-[10px] text-slate-500 mt-1">
+              {movie.release_year} • {movie.genre.split('/')[0]}
+            </span>
+            <span className="mt-3 inline-block px-2 py-0.5 rounded text-[9px] font-medium bg-slate-800/70 border border-slate-700/50 text-slate-400">
+              No Poster
+            </span>
+          </div>
+        )}
 
         {/* Watchlist Quick Button */}
         <button
