@@ -1,21 +1,43 @@
 # CineRate – Movie Information & Rating Portal
 
-CineRate is a modern, responsive, full-stack web application designed for cinematic exploration, film rating, community reviews, and personal watchlist curation. It offers moviegoers and cinema enthusiasts an immersive, authentic platform to discover films across various genres, languages, and decades.
+CineRate is a modern, responsive, full-stack web application designed for cinematic exploration, film ratings, community reviews, and personal watchlist curation. It offers moviegoers and cinema enthusiasts an immersive, authentic platform to discover films across various genres, languages, and decades.
 
 ---
 
 ## Key Features
 
-- **Movie Discovery & Catalog**: Explore a rich catalog of films with detailed storylines, directors, ensemble cast, runtimes, release years, and high-definition posters and backdrops.
-- **Dynamic Multi-Facet Filtering**: Filter movies in real time by genre, language, release year, and minimum rating (e.g., 4.5+ stars), and sort by popularity, rating, release date, or alphabetically without page reloads.
-- **Instant Search**: Debounced search supporting partial title matching, director search, cast lookups, and keywords with live autocomplete preview.
-- **1–5 Star Rating System**: Interactive rating widget allowing authenticated users to score films, update existing scores, and instantly view average calculations and total review tallies.
-- **Community Review System**: Authenticated users can write in-depth reviews, edit their personal reviews, and delete them.
-- **Personal Watchlist**: One-click bookmarking of films to a private user watchlist with quick-removal and live navigation counters.
-- **User Authentication**: Secure registration and login using bcrypt password hashing, JWT session management, and HTTP-only session cookies.
-- **User Profile**: Dedicated hub displaying user credentials, account join date, total movies rated, reviews written, and direct management of ratings and watchlists.
-- **Administrator Dashboard**: Role-based access control (RBAC) allowing administrators to add new movies, edit catalog entries, delete films, moderate reviews, and monitor registered users.
-- **Responsive Cinematic UI**: Styled with Tailwind CSS, dark glassmorphism, responsive navigation drawers, and trailer modal previews.
+- **Extensive 1,050+ Film Catalog**: Comprehensive dataset spanning Hollywood classics, modern blockbusters, Tamil cinema gems (Lokesh Cinematic Universe, Mani Ratnam, Shankar, Pa. Ranjith, Vetri Maaran), Pan-India epics (*RRR, Baahubali, KGF, Pushpa, Kalki 2898 AD*), and world cinema.
+- **Authentic Movie Clip Posters & Backdrops**:
+  - Posters and widescreen backdrops are generated directly from official high-definition movie trailer video clip frames (`hqdefault.jpg` and `maxresdefault.jpg`).
+  - **Strict Empty Poster Policy**: Movies without verified trailer clips feature an elegant, stylized slate card with film icon, title, release year, and genre rather than irrelevant or generic stock photos.
+- **Rich Community Reviews & Ratings (3,600+ Reviews)**:
+  - Every catalog title includes pre-seeded community reviews (2 to 5 per movie) authored by distinct community reviewer personas (*Sarah Jenkins, Marcus Vance, Priya Sharma, Alex Rivera, David Chen, Chloe Bennett, Kenji Sato, Liam Gallagher, Fatima Al-Mansoor*).
+  - Review commentary is tailored to the film's genre (Sci-Fi, Action, Drama, Thriller, Mystery, Comedy, Romance, Adventure) with realistic ratings and staggered timestamps.
+- **Interactive 1–5 Star Rating System**:
+  - Score any film with an interactive star widget.
+  - Dynamically recalculates overall average ratings and total vote counts.
+  - Quick rating adjustment directly from the user profile.
+- **Personal Watchlist Management**:
+  - One-click bookmarking of films to a private user watchlist.
+  - Real-time counter indicators in the navigation bar and dedicated watchlist page.
+- **Recently Viewed History**:
+  - Automatically records recently viewed titles into local storage with a dedicated "Jump Back In" shelf on the home screen.
+- **Dynamic Multi-Facet Filtering & Search**:
+  - Filter movies in real time by genre, language, release year, and minimum rating (e.g., 4.5+ stars).
+  - Sort by popularity, rating, release year (newest/oldest), reviews count, or alphabetically.
+  - Debounced instant search supporting titles, directors, cast members, and keywords with live autocomplete preview.
+- **Official Trailer Modal Player**:
+  - Integrated YouTube modal player for verified movie trailers with autoplay and fallback to direct search.
+- **User Authentication & Profiles**:
+  - Secure registration and login using bcrypt password hashing, JWT session management, and HTTP-only cookies.
+  - Profile hub displaying total movies rated, reviews authored, watchlist items, and account settings.
+- **Administrator Dashboard**:
+  - Role-based access control (RBAC).
+  - Platform metrics (total movies, users, reviews, ratings, average platform score).
+  - Complete Movie CRUD (Create, Read, Update, Delete) with modal forms.
+  - Review moderation and user inspection.
+- **Dark / Light Theme Support**:
+  - Built-in theme switcher with smooth transition and local storage persistence.
 
 ---
 
@@ -23,20 +45,19 @@ CineRate is a modern, responsive, full-stack web application designed for cinema
 
 ### Frontend
 - **React 19** with **TypeScript**
-- **Tailwind CSS v4** for clean responsive styling and glassmorphism
+- **Tailwind CSS v4** for clean responsive styling, glassmorphism, and dark/light modes
 - **Lucide React** for modern iconography
-- **Motion** for smooth state transitions
+- **Motion** for smooth state animations
 
 ### Backend
-- **Node.js & Express** API architecture with modular routers
-- **Vite** middleware integration for development and static compilation in production
-- **Bcrypt.js** for strong salted password hashing
-- **JSON Web Tokens (JWT)** with HTTP-only cookies (`SameSite=Lax` / `SameSite=Strict`)
+- **Node.js & Express** REST API architecture
+- **Vite** middleware integration for unified development and static production builds
+- **Bcrypt.js** for secure salted password hashing
+- **JSON Web Tokens (JWT)** with HTTP-only cookies (`SameSite=Lax`)
 
-### Database
-- **PostgreSQL** relational database
-- Compatible with **Supabase PostgreSQL**, **Neon**, **AWS RDS**, or **Google Cloud SQL**
-- Resilient embedded data layer that supports local fallback during initial setup
+### Database Layer
+- **PostgreSQL** relational database support (compatible with Supabase, Neon, AWS RDS, or Google Cloud SQL)
+- Resilient in-memory embedded data store that operates out of the box with zero external configuration
 
 ---
 
@@ -50,27 +71,35 @@ cinerate/
 │   ├── components/            # Reusable UI components
 │   │   ├── AuthModal.tsx      # Sign in / Register modal with 1-click demo logins
 │   │   ├── DeleteConfirmModal.tsx # Safe deletion confirmations
-│   │   ├── MovieCard.tsx      # Cinematic movie card with watchlist & trailer actions
+│   │   ├── MovieCard.tsx      # Cinematic movie card with clip poster & empty state
 │   │   ├── MovieFormModal.tsx # Admin Add/Edit movie modal form
 │   │   ├── Navbar.tsx         # Responsive navigation & live search dropdown
 │   │   ├── RatingStars.tsx    # Interactive 1-5 star widget
-│   │   └── TrailerModal.tsx   # Video trailer modal player
+│   │   ├── ThemeToggle.tsx    # Dark/light theme switch
+│   │   └── TrailerModal.tsx   # Verified YouTube trailer modal player
 │   ├── context/
 │   │   ├── AuthContext.tsx    # Global user session & state
+│   │   ├── ThemeContext.tsx   # Light/dark mode provider
 │   │   └── ToastContext.tsx   # Real-time alert notifications
+│   ├── data/
+│   │   ├── moviesData.ts      # 1,050-film seed dataset
+│   │   └── seedReviews.ts     # Community review generator (3,600+ reviews)
 │   ├── lib/
-│   │   └── api.ts             # Typed HTTP client for all API endpoints
+│   │   ├── api.ts             # Typed HTTP client for all API endpoints
+│   │   ├── movieImages.ts     # Authentic movie clip stills engine & empty poster resolver
+│   │   ├── recentlyViewed.ts  # LocalStorage recently viewed history hook
+│   │   └── trailers.ts        # Verified trailer video ID mappings & resolver
 │   ├── server/                # Backend API & Database Layer
 │   │   ├── auth.ts            # JWT verification & HTTP-only cookies
-│   │   ├── db.ts              # PostgreSQL pool & database operations
+│   │   ├── db.ts              # In-memory & PostgreSQL pool data layer
 │   │   └── routes.ts          # RESTful API route controllers
 │   ├── views/                 # Top-level page views
 │   │   ├── AdminPage.tsx      # Admin metrics, movie CRUD, review moderation
 │   │   ├── GenresPage.tsx     # Visual genre category explorer
-│   │   ├── HomePage.tsx       # Hero showcase, popular, top rated, recent rows
-│   │   ├── MovieDetailsPage.tsx # Film details, star ratings, reviews
+│   │   ├── HomePage.tsx       # Hero showcase, trending, top rated, recent rows
+│   │   ├── MovieDetailsPage.tsx # Film details, star ratings, community reviews
 │   │   ├── MoviesPage.tsx     # Discovery catalog & multi-facet filters
-│   │   ├── ProfilePage.tsx    # User stats, watchlist, personal reviews
+│   │   ├── ProfilePage.tsx    # User stats, watchlist, personal reviews & ratings
 │   │   └── WatchlistPage.tsx  # Dedicated saved films grid
 │   ├── App.tsx                # Main view router & layout wrapper
 │   ├── index.css              # Global Tailwind imports & custom scrollbars
@@ -108,9 +137,9 @@ movies (
     duration VARCHAR(50) NOT NULL,
     director VARCHAR(150) NOT NULL,
     cast_members TEXT NOT NULL,
-    poster_url TEXT NOT NULL,
-    backdrop_url TEXT NOT NULL,
-    trailer_url TEXT NOT NULL,
+    poster_url TEXT,
+    backdrop_url TEXT,
+    trailer_url TEXT,
     featured BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
@@ -157,7 +186,7 @@ watchlist (
 
 ### Movies
 - `GET /api/movies` – Query catalog with filters: `search`, `genre`, `language`, `year`, `minRating`, `sort`, `limit`, `offset`.
-- `GET /api/movies/:id` – Fetch movie specifications, aggregated average rating, and reviews.
+- `GET /api/movies/:id` – Fetch movie specifications, aggregated average rating, and community reviews.
 - `GET /api/movies/search?q=` – Rapid title, cast, director, and genre search.
 - `POST /api/movies` – Admin only: create a new movie entry.
 - `PUT /api/movies/:id` – Admin only: update an existing movie.
@@ -194,12 +223,13 @@ For quick evaluation, pre-seeded accounts are readily available via the **1-Clic
 |---|---|---|
 | **Administrator** | `admin@cinerate.com` | `Admin@123` |
 | **Standard Member** | `alex@cinerate.com` | `User@123` |
+| **Community Reviewer** | `sarah.j@cinerate.com` | `User@123` |
 
 ---
 
 ## Local Development Setup
 
-### 1. Clone & Install
+### 1. Clone & Install Dependencies
 ```bash
 git clone https://github.com/your-username/cinerate.git
 cd cinerate
@@ -219,14 +249,14 @@ PORT=3000
 NODE_ENV=development
 ```
 
-### 3. Initialize Database (Optional if using live PostgreSQL)
+### 3. Initialize Database (Optional)
 Run the script in `database/schema.sql` against your PostgreSQL database:
 ```bash
 psql -U postgres -d cinerate -f database/schema.sql
 ```
-*(If no external database is configured, the application automatically boots using the embedded data store with full seed data).*
+*(If no external PostgreSQL database is configured, the application automatically boots using the embedded data store with all 1,050 movies and 3,600+ reviews).*
 
-### 4. Run the Application
+### 4. Run the Development Server
 ```bash
 npm run dev
 ```
@@ -234,44 +264,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## Vercel Deployment Instructions
+## Deployment Instructions
 
-### 1. Create a PostgreSQL Database
-You can use **Supabase** or **Neon**:
-1. Go to [Supabase](https://supabase.com) or [Neon](https://neon.tech) and create a free PostgreSQL project.
-2. In the database dashboard, navigate to the **SQL Editor**.
-3. Paste the contents of `database/schema.sql` and run it to create tables, indexes, and initial seeds.
-4. Copy the PostgreSQL Connection String (`postgresql://postgres:...`).
-
-### 2. Push Code to GitHub
-Ensure all your files are committed and pushed to your repository:
-```bash
-git add .
-git commit -m "Deploy CineRate Portal"
-git push origin main
-```
-
-### 3. Connect to Vercel
-1. Log in to [Vercel](https://vercel.com) and click **"Add New..." > "Project"**.
-2. Select your GitHub repository.
-3. Keep the default Build Command (`npm run build`) and Output Directory (`dist`).
-
-### 4. Configure Environment Variables on Vercel
-In the Vercel project deployment settings, add the following under **Environment Variables**:
-- `DATABASE_URL`: Your Supabase or Neon PostgreSQL connection URI.
-- `JWT_SECRET`: A secure random secret string for token signing.
-- `NODE_ENV`: `production`
-
-### 5. Deploy & Verify
-1. Click **Deploy**. Vercel will build the frontend assets and prepare serverless routes.
-2. Once deployed, open your production URL.
-3. Test signing in with `admin@cinerate.com`, browsing movies, rating a film, adding to watchlist, and managing movies via the Admin Dashboard.
-
----
-
-## Future Improvements
-
-- User avatar image uploads via cloud storage (S3 / Cloud Storage).
-- Critic vs Audience split rating badges.
-- Social sharing previews with OpenGraph dynamic metadata per movie.
-- Custom user-created lists (e.g., "Favorite Sci-Fi of the 2020s").
+### Vercel Deployment
+1. Push your repository to GitHub.
+2. In [Vercel](https://vercel.com), click **New Project** and import the repository.
+3. Configure the following **Environment Variables**:
+   - `DATABASE_URL`: Your hosted PostgreSQL connection URI (e.g., Supabase or Neon).
+   - `JWT_SECRET`: A strong secret key string.
+   - `NODE_ENV`: `production`
+4. Deploy! The included `vercel.json` automatically configures routing for both the client SPA and Express API.
