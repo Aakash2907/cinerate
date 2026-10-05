@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Star, Bookmark, Play, Clock, Sparkles } from 'lucide-react';
 import { MovieItem, api } from '../lib/api.ts';
+import { getMoviePosterUrl } from '../lib/movieImages.ts';
 import { useAuth } from '../context/AuthContext.tsx';
 import { useToast } from '../context/ToastContext.tsx';
 
@@ -27,7 +28,10 @@ export const MovieCard: React.FC<MovieCardProps> = ({
   const [isUpdatingWatchlist, setIsUpdatingWatchlist] = useState<boolean>(false);
   const [imgError, setImgError] = useState<boolean>(false);
 
-  const fallbackPoster = 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=800&auto=format&fit=crop';
+  const clipPoster = getMoviePosterUrl(movie);
+  const activePoster = imgError
+    ? clipPoster
+    : (movie.poster_url && !movie.poster_url.includes('unsplash') ? movie.poster_url : clipPoster);
 
   const handleWatchlistToggle = async (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -77,7 +81,7 @@ export const MovieCard: React.FC<MovieCardProps> = ({
       {/* Poster Image Container */}
       <div className={`relative ${compact ? 'aspect-[3/4]' : 'aspect-[2/3]'} overflow-hidden bg-slate-950`}>
         <img
-          src={imgError ? fallbackPoster : (movie.poster_url || fallbackPoster)}
+          src={activePoster}
           alt={movie.title}
           onError={() => setImgError(true)}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

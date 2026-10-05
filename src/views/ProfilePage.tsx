@@ -13,6 +13,7 @@ import {
   CheckCircle,
 } from 'lucide-react';
 import { MovieItem, ReviewItem, api } from '../lib/api.ts';
+import { getMoviePosterUrl } from '../lib/movieImages.ts';
 import { RatingStars } from '../components/RatingStars.tsx';
 import { MovieCard } from '../components/MovieCard.tsx';
 import { useAuth } from '../context/AuthContext.tsx';
@@ -298,7 +299,7 @@ export const ProfilePage: React.FC<ProfilePageProps> = ({
                   className="glass-panel p-4 rounded-2xl border border-slate-800 hover:border-slate-700 transition-all flex items-center gap-4"
                 >
                   <img
-                    src={movie?.poster_url}
+                    src={getMoviePosterUrl(movie)}
                     alt={movie?.title}
                     onClick={() => onSelectMovie(movie_id)}
                     className="w-14 h-20 object-cover rounded-xl shrink-0 cursor-pointer"

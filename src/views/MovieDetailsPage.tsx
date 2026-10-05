@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import { MovieItem, ReviewItem, api } from '../lib/api.ts';
 import { recordRecentlyViewedMovie } from '../lib/recentlyViewed.ts';
+import { getMoviePosterUrl, getMovieBackdropUrl } from '../lib/movieImages.ts';
 import { RatingStars } from '../components/RatingStars.tsx';
 import { useAuth } from '../context/AuthContext.tsx';
 import { useToast } from '../context/ToastContext.tsx';
@@ -260,7 +261,7 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
         {/* Backdrop Banner Image */}
         <div className="relative h-64 sm:h-80 lg:h-96 w-full overflow-hidden">
           <img
-            src={movie.backdrop_url || movie.poster_url}
+            src={getMovieBackdropUrl(movie)}
             alt={movie.title}
             className="w-full h-full object-cover filter brightness-75"
           />
@@ -273,7 +274,7 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
             {/* Poster Column */}
             <div className="w-44 sm:w-56 lg:w-64 shrink-0 mx-auto md:mx-0 shadow-2xl rounded-2xl overflow-hidden border-2 border-slate-700/80 bg-slate-900">
               <img
-                src={movie.poster_url}
+                src={getMoviePosterUrl(movie)}
                 alt={movie.title}
                 className="w-full aspect-[2/3] object-cover"
               />

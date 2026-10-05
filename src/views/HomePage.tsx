@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { MovieItem, api } from '../lib/api.ts';
 import { useRecentlyViewed } from '../lib/recentlyViewed.ts';
+import { getMovieBackdropUrl } from '../lib/movieImages.ts';
 import { MovieCard } from '../components/MovieCard.tsx';
 import { RatingStars } from '../components/RatingStars.tsx';
 import { useAuth } from '../context/AuthContext.tsx';
@@ -126,7 +127,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           {/* Backdrop Image with Multi-layer Gradient */}
           <div className="absolute inset-0">
             <img
-              src={heroMovie.backdrop_url || heroMovie.poster_url}
+              src={getMovieBackdropUrl(heroMovie)}
               alt={heroMovie.title}
               className="w-full h-full object-cover object-center filter brightness-90 transform scale-105 transition-transform duration-1000"
             />

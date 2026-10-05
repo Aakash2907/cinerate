@@ -13,6 +13,7 @@ import {
   AlertTriangle,
 } from 'lucide-react';
 import { MovieItem, ReviewItem, UserProfile, api } from '../lib/api.ts';
+import { getMoviePosterUrl } from '../lib/movieImages.ts';
 import { useAuth } from '../context/AuthContext.tsx';
 import { useToast } from '../context/ToastContext.tsx';
 import { MovieFormModal } from '../components/MovieFormModal.tsx';
@@ -278,7 +279,7 @@ export const AdminPage: React.FC<AdminPageProps> = ({ onSelectMovie }) => {
                       <td className="p-4">
                         <div className="flex items-center gap-3">
                           <img
-                            src={m.poster_url}
+                            src={getMoviePosterUrl(m)}
                             alt={m.title}
                             className="w-10 h-14 object-cover rounded-lg shrink-0 bg-slate-950"
                           />

@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext.tsx';
 import { api, MovieItem } from '../lib/api.ts';
+import { getMoviePosterUrl } from '../lib/movieImages.ts';
 import { ThemeToggle } from './ThemeToggle.tsx';
 
 interface NavbarProps {
@@ -215,7 +216,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate, onSearc
                       className="flex items-center gap-3 p-2 rounded-xl hover:bg-slate-800/80 cursor-pointer transition-colors"
                     >
                       <img
-                        src={m.poster_url}
+                        src={getMoviePosterUrl(m)}
                         alt={m.title}
                         className="w-10 h-14 object-cover rounded-lg shrink-0 bg-slate-950"
                       />
