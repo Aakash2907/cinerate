@@ -132,10 +132,12 @@ function AppContent() {
 
       {/* Global Modals */}
       <AuthModal />
-      <TrailerModal
-        movie={activeTrailerMovie}
-        onClose={() => setActiveTrailerMovie(null)}
-      />
+      {activeTrailerMovie && (
+        <TrailerModal
+          movie={activeTrailerMovie}
+          onClose={() => setActiveTrailerMovie(null)}
+        />
+      )}
 
       {/* Footer */}
       <footer className="border-t border-slate-800/80 bg-slate-950 mt-auto">

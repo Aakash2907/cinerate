@@ -9,9 +9,6 @@ interface TrailerModalProps {
 }
 
 export const TrailerModal: React.FC<TrailerModalProps> = ({ movie, onClose }) => {
-  if (!movie) return null;
-
-  const trailer = getMovieTrailer(movie);
   const [embedFailed, setEmbedFailed] = useState<boolean>(false);
 
   // Reset embed failed state whenever movie changes
@@ -27,6 +24,10 @@ export const TrailerModal: React.FC<TrailerModalProps> = ({ movie, onClose }) =>
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [onClose]);
+
+  if (!movie) return null;
+
+  const trailer = getMovieTrailer(movie);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/90 backdrop-blur-xl animate-in fade-in duration-200">
