@@ -5,6 +5,7 @@ import {
   Play,
   Bookmark,
   Share2,
+  Check,
   Calendar,
   Clock,
   Globe,
@@ -18,6 +19,7 @@ import {
 } from 'lucide-react';
 import { MovieItem, ReviewItem, api } from '../lib/api.ts';
 import { recordRecentlyViewedMovie } from '../lib/recentlyViewed.ts';
+import { copyToClipboard, getMovieShareUrl } from '../lib/clipboard.ts';
 import { getMoviePosterUrl, getMovieBackdropUrl } from '../lib/movieImages.ts';
 import { RatingStars } from '../components/RatingStars.tsx';
 import { useAuth } from '../context/AuthContext.tsx';
@@ -195,10 +197,17 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
   };
 
   // Copy share link
-  const handleShare = () => {
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(window.location.href);
-      toast('Movie link copied to clipboard!', 'info');
+  const [copiedLink, setCopiedLink] = useState<boolean>(false);
+
+  const handleShare = async () => {
+    const shareUrl = getMovieShareUrl(movieId);
+    const success = await copyToClipboard(shareUrl);
+    if (success) {
+      setCopiedLink(true);
+      toast(`Link for "${movie?.title || 'movie'}" copied to clipboard!`, 'success');
+      setTimeout(() => setCopiedLink(false), 2500);
+    } else {
+      toast('Failed to copy link. Please copy directly from browser address bar.', 'error');
     }
   };
 
@@ -247,10 +256,24 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
 
         <button
           onClick={handleShare}
-          className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:border-slate-700 text-xs font-semibold transition-all"
-          title="Share Movie Link"
+          className={`flex items-center gap-1.5 px-3 py-2 rounded-xl border text-xs font-semibold transition-all ${
+            copiedLink
+              ? 'bg-emerald-500/20 border-emerald-500 text-emerald-300 shadow-md shadow-emerald-500/10'
+              : 'bg-slate-900 border-slate-800 text-slate-300 hover:text-white hover:border-slate-700'
+          }`}
+          title="Copy Link to Movie"
         >
-          <Share2 className="w-4 h-4" />
+          {copiedLink ? (
+            <>
+              <Check className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Link Copied!</span>
+            </>
+          ) : (
+            <>
+              <Share2 className="w-3.5 h-3.5" />
+              <span>Share</span>
+            </>
+          )}
         </button>
       </div>
 
@@ -399,6 +422,28 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
                 >
                   <Bookmark className={`w-4 h-4 ${inWatchlist ? 'fill-amber-400 text-amber-400' : ''}`} />
                   <span>{inWatchlist ? 'In Watchlist' : 'Add to Watchlist'}</span>
+                </button>
+
+                <button
+                  onClick={handleShare}
+                  className={`px-5 py-3 rounded-2xl backdrop-blur-md transition-all flex items-center gap-2 text-sm font-semibold border ${
+                    copiedLink
+                      ? 'bg-emerald-500/20 border-emerald-500 text-emerald-300 shadow-md shadow-emerald-500/10'
+                      : 'bg-slate-900 hover:bg-slate-800 border-slate-700 text-slate-200'
+                  }`}
+                  title="Copy share link for this film"
+                >
+                  {copiedLink ? (
+                    <>
+                      <Check className="w-4 h-4 text-emerald-400" />
+                      <span>Link Copied!</span>
+                    </>
+                  ) : (
+                    <>
+                      <Share2 className="w-4 h-4 text-slate-400" />
+                      <span>Share Film</span>
+                    </>
+                  )}
                 </button>
               </div>
 

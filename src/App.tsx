@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AuthProvider } from './context/AuthContext.tsx';
 import { ToastProvider } from './context/ToastContext.tsx';
 import { ThemeProvider, useTheme } from './context/ThemeContext.tsx';
@@ -24,6 +24,50 @@ function AppContent() {
   const [selectedMovieId, setSelectedMovieId] = useState<number | null>(null);
   const [activeTrailerMovie, setActiveTrailerMovie] = useState<MovieItem | null>(null);
 
+  // Sync URL with view state
+  const syncUrl = (view: string, movieId?: number | null) => {
+    if (typeof window === 'undefined') return;
+    try {
+      const url = new URL(window.location.origin + window.location.pathname);
+      if (view === 'movie-details' && movieId) {
+        url.searchParams.set('movie', String(movieId));
+      } else if (view !== 'home') {
+        url.searchParams.set('view', view);
+      }
+      window.history.pushState({ view, movieId }, '', url.toString());
+    } catch {}
+  };
+
+  // Handle URL deep-linking on initial load and back/forward navigation
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const parseUrl = () => {
+      try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const movieParam = urlParams.get('movie');
+        if (movieParam) {
+          const mId = parseInt(movieParam, 10);
+          if (!isNaN(mId) && mId > 0) {
+            setSelectedMovieId(mId);
+            recordRecentlyViewedId(mId);
+            setCurrentView('movie-details');
+            return;
+          }
+        }
+
+        const viewParam = urlParams.get('view');
+        if (viewParam && ['home', 'movies', 'genres', 'watchlist', 'profile', 'admin'].includes(viewParam)) {
+          setCurrentView(viewParam);
+        }
+      } catch {}
+    };
+
+    parseUrl();
+    window.addEventListener('popstate', parseUrl);
+    return () => window.removeEventListener('popstate', parseUrl);
+  }, []);
+
   const handleNavigate = (view: string, data?: any) => {
     // Only scroll to top if not returning to preserved catalog
     if (view !== 'movies' || (data && Object.keys(data).length > 0)) {
@@ -35,6 +79,7 @@ function AppContent() {
         updateFilters(data);
       }
       setCurrentView('movies');
+      syncUrl('movies');
     } else if (view === 'movie-details') {
       const id = typeof data === 'object' && data !== null 
         ? Number(data.movieId ?? data.id ?? 1) 
@@ -43,11 +88,14 @@ function AppContent() {
       setSelectedMovieId(safeId);
       recordRecentlyViewedId(safeId);
       setCurrentView('movie-details');
+      syncUrl('movie-details', safeId);
     } else if (view === 'top-rated') {
       updateFilters({ sort: 'rating', currentPage: 1 });
       setCurrentView('movies');
+      syncUrl('movies');
     } else {
       setCurrentView(view);
+      syncUrl(view);
     }
   };
 
@@ -57,6 +105,7 @@ function AppContent() {
     setSelectedMovieId(safeId);
     recordRecentlyViewedId(safeId);
     setCurrentView('movie-details');
+    syncUrl('movie-details', safeId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

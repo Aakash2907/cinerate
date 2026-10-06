@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Star, Bookmark, Play, Clock, Sparkles, Film } from 'lucide-react';
+import { Star, Bookmark, Play, Clock, Sparkles, Film, Share2, Check } from 'lucide-react';
 import { MovieItem, api } from '../lib/api.ts';
 import { getMoviePosterUrl } from '../lib/movieImages.ts';
+import { copyToClipboard, getMovieShareUrl } from '../lib/clipboard.ts';
 import { useAuth } from '../context/AuthContext.tsx';
 import { useToast } from '../context/ToastContext.tsx';
 
@@ -27,6 +28,20 @@ export const MovieCard: React.FC<MovieCardProps> = ({
   );
   const [isUpdatingWatchlist, setIsUpdatingWatchlist] = useState<boolean>(false);
   const [imgError, setImgError] = useState<boolean>(false);
+  const [copiedLink, setCopiedLink] = useState<boolean>(false);
+
+  const handleQuickShare = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    const url = getMovieShareUrl(movie.id);
+    const ok = await copyToClipboard(url);
+    if (ok) {
+      setCopiedLink(true);
+      toast(`Link for "${movie.title}" copied!`, 'success');
+      setTimeout(() => setCopiedLink(false), 2000);
+    } else {
+      toast('Could not copy link to clipboard', 'error');
+    }
+  };
 
   const clipPoster = getMoviePosterUrl(movie);
   const activePoster = (clipPoster || (movie.poster_url && !movie.poster_url.includes('unsplash') ? movie.poster_url : ''));
@@ -107,19 +122,33 @@ export const MovieCard: React.FC<MovieCardProps> = ({
           </div>
         )}
 
-        {/* Watchlist Quick Button */}
-        <button
-          onClick={handleWatchlistToggle}
-          disabled={isUpdatingWatchlist}
-          title={inWatchlist ? 'Remove from Watchlist' : 'Add to Watchlist'}
-          className={`absolute top-3 right-3 p-2.5 rounded-xl backdrop-blur-md transition-all duration-200 z-10 ${
-            inWatchlist
-              ? 'bg-amber-500 text-black shadow-lg shadow-amber-500/30 ring-2 ring-amber-400'
-              : 'bg-black/50 hover:bg-black/80 text-white hover:text-amber-400 border border-white/10'
-          }`}
-        >
-          <Bookmark className={`w-4 h-4 ${inWatchlist ? 'fill-black' : ''}`} />
-        </button>
+        {/* Quick Actions (Watchlist & Share) */}
+        <div className="absolute top-3 right-3 flex items-center gap-1.5 z-10">
+          <button
+            onClick={handleQuickShare}
+            title={copiedLink ? 'Link Copied!' : 'Copy Movie Link'}
+            className={`p-2.5 rounded-xl backdrop-blur-md transition-all duration-200 border ${
+              copiedLink
+                ? 'bg-emerald-500/80 border-emerald-400 text-white shadow-lg shadow-emerald-500/30'
+                : 'bg-black/50 hover:bg-black/80 text-white hover:text-amber-400 border-white/10 opacity-0 group-hover:opacity-100'
+            }`}
+          >
+            {copiedLink ? <Check className="w-4 h-4 text-white" /> : <Share2 className="w-4 h-4" />}
+          </button>
+
+          <button
+            onClick={handleWatchlistToggle}
+            disabled={isUpdatingWatchlist}
+            title={inWatchlist ? 'Remove from Watchlist' : 'Add to Watchlist'}
+            className={`p-2.5 rounded-xl backdrop-blur-md transition-all duration-200 ${
+              inWatchlist
+                ? 'bg-amber-500 text-black shadow-lg shadow-amber-500/30 ring-2 ring-amber-400'
+                : 'bg-black/50 hover:bg-black/80 text-white hover:text-amber-400 border border-white/10'
+            }`}
+          >
+            <Bookmark className={`w-4 h-4 ${inWatchlist ? 'fill-black' : ''}`} />
+          </button>
+        </div>
 
         {/* Rating Badge */}
         <div className="absolute top-3 left-3 flex items-center gap-1.5 px-2.5 py-1 rounded-xl bg-black/60 backdrop-blur-md border border-white/10 text-amber-400 text-xs font-semibold">
