@@ -14,7 +14,13 @@ export function getMovieVideoId(movie?: Partial<MovieItem> | null): string | nul
     return VERIFIED_TRAILERS[cleanTitle];
   }
 
-  // 2. If title is literally Interstellar
+  // 2. Check movie.trailer_url
+  if (movie.trailer_url) {
+    const rawId = extractYouTubeId(movie.trailer_url);
+    if (rawId) return rawId;
+  }
+
+  // 3. Fallback for title aliases
   if (cleanTitle === 'interstellar') {
     return 'zSWdZVtXT7E';
   }

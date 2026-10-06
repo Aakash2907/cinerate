@@ -157,7 +157,7 @@ export const MovieCard: React.FC<MovieCardProps> = ({
         </div>
 
         {/* Quick Trailer Play Button (visible on hover) */}
-        {movie.trailer_url && (
+        {onPlayTrailer && (
           <button
             onClick={handleTrailer}
             className="absolute inset-0 m-auto w-12 h-12 rounded-full bg-amber-500/90 hover:bg-amber-400 text-black flex items-center justify-center shadow-lg shadow-amber-500/40 opacity-0 group-hover:opacity-100 transition-all duration-300 transform scale-75 group-hover:scale-100 z-10"

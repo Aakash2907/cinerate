@@ -401,15 +401,13 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
 
               {/* Action Buttons */}
               <div className="flex items-center gap-3 pt-2 flex-wrap">
-                {movie.trailer_url && (
-                  <button
-                    onClick={() => onPlayTrailer(movie)}
-                    className="px-6 py-3 rounded-2xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm shadow-xl shadow-amber-500/20 transition-all flex items-center gap-2 transform active:scale-95"
-                  >
-                    <Play className="w-4 h-4 fill-black" />
-                    <span>Watch Trailer</span>
-                  </button>
-                )}
+                <button
+                  onClick={() => onPlayTrailer(movie)}
+                  className="px-6 py-3 rounded-2xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm shadow-xl shadow-amber-500/20 transition-all flex items-center gap-2 transform active:scale-95 cursor-pointer"
+                >
+                  <Play className="w-4 h-4 fill-black" />
+                  <span>Watch Trailer</span>
+                </button>
 
                 <button
                   onClick={handleWatchlistToggle}

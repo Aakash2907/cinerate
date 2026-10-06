@@ -1,23 +1,6 @@
-// CineRate Catalog Dataset (228 genuine films)
-export interface MovieSeed {
-  id: number;
-  title: string;
-  description: string;
-  release_year: number;
-  genre: string;
-  language: string;
-  duration: string;
-  director: string;
-  cast_members: string;
-  poster_url: string;
-  backdrop_url: string;
-  trailer_url: string;
-  featured: boolean;
-  average_rating: number;
-  rating_count: number;
-}
+import type { MovieItem } from '../lib/api.ts';
 
-export const MOVIES_DATASET: MovieSeed[] = [
+export const MOVIES_DATASET: MovieItem[] = [
   {
     "id": 1,
     "title": "Fight Club",
@@ -455,7 +438,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A mild-mannered auto driver conceals a fearsome underworld past as Bombay's legendary crime boss Manik Baashha.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=1g-yZ3BDDK0",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4500
@@ -472,7 +455,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The rise of a young runaway into the revered godfather and protector of Bombay's Tamil slum community.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=1S6YkmYvgi8",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4600
@@ -489,7 +472,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An arrogant ad filmmaker and a scarred, compassionate socialist bond during an unexpected journey from Bhubaneswar.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=lPLN69KAukE",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4300
@@ -506,7 +489,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Four interconnected storylines explore morality, identity, and humanity on one fateful day in Chennai.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=3-Xq_Zz3nPA",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3600
@@ -676,7 +659,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A ruthless mercenary working for mafia syndicates is secretly an undercover IPS officer taking down the underworld.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=0OKiGzwv-1E",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3600
@@ -710,7 +693,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "When international arms dealer David Billa is fatally wounded, police recruit his lookalike to infiltrate the cartel.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=SpDD9YIBhv8",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3300
@@ -727,7 +710,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A mild-mannered cab driver protecting his adoptive sister reveals his past identity as Kolkata's dreaded enforcer.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=b3WB7ogte-g",
     "featured": false,
     "average_rating": 4.6,
     "rating_count": 2900
@@ -744,7 +727,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A charismatic village chieftain travels to Mumbai to protect his estranged wife and daughter from an industrialist.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=1rUi9U9Opuk",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3100
@@ -761,7 +744,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A non-resident software architect returns to India to offer free education and healthcare, battling corrupt politicians.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=rQkD0QQOJ0Y",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 4200
@@ -778,7 +761,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A scientist constructs an advanced humanoid android, but chaos erupts when the robot develops emotions and falls in love.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=sY_F6issHsU",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 4000
@@ -795,7 +778,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Chitti the robot is reassembled to battle an avian supernatural monster born of radiation from mobile towers.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=7cx-KSsYcjg",
     "featured": false,
     "average_rating": 4.5,
     "rating_count": 3000
@@ -812,7 +795,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An affable college hostel warden hides a lethal past as a revered village protector fighting a ruthless politician.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=FCB0ZfQ9Rzs",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3400
@@ -829,7 +812,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An aging Malaysian gangster is released from prison and sets out to reunite with his wife and destroy gang syndicates.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=9mdJV5-eias",
     "featured": false,
     "average_rating": 4.6,
     "rating_count": 3100
@@ -863,7 +846,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A political feud erupts in North Chennai over ownership of a prestigious neighborhood wall used for party propaganda.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=TZE8iayS_Xk",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3200
@@ -880,7 +863,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An idealistic law student from an oppressed caste struggles for dignity amidst systemic university prejudice.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=GMNsUxJe4R4",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -897,7 +880,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A fearless young villager takes up a sword to defend his marginalized community against cruel bureaucratic tyranny.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=pgfUzQ8nzBY",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3500
@@ -914,7 +897,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An oppressed community MLA and his son stand resolute against the entitled arrogance of a dominant caste leader.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=xWe03YByWEI",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -965,7 +948,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A cunning international smuggler with an MBA decides to turn his life around when his partner is murdered.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=wbvmzziVpWI",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -982,7 +965,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An honorable police inspector from a small village is transferred to Chennai where he locks horns with a kingpin.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=96CgGu1JYbY",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3600
@@ -999,7 +982,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A watchmaker uses his late father's time-traveling watch to thwart his villainous identical twin uncle.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=wqXE_es_I3M",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3500
@@ -1033,7 +1016,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two high school sweethearts reunite at a class reunion after 22 years and reflect on memories of lost love.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=r0synl-lI4I",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4100
@@ -1050,7 +1033,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A pizza delivery boy arrives at a customer's bungalow and becomes trapped in a nightmarish supernatural conspiracy.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=1ORbkrHs5JU",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3100
@@ -1067,7 +1050,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An aspiring film director travels to Madurai to spy on a bloodthirsty gangster for a script and gets entangled.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=_T8n-EHr4ZE",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -1084,7 +1067,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A tribal gangster in 1970s Tamil Nadu attempts to become a cinema hero with the help of an eccentric undercover cop.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=PvoUJejn1e4",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3200
@@ -1118,7 +1101,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A London-educated young man returns home and is forced to shoulder his ancestral village chieftain responsibilities.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=GbZjpr13FWQ",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -1135,7 +1118,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A historian recalls his descent into religious extremism and redemption during the partition of India.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=GKLvKk_uXzA",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3300
@@ -1152,7 +1135,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A death-row convict recounts the tragic rural clan dispute that led to massacre, revealed via the Rashomon effect.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=Suj0B0keaJ4",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3600
@@ -1169,7 +1152,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Kamal Haasan portrays ten different characters involved in safeguarding a deadly synthetic biological weapon.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=aZvRZV6llOM",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3500
@@ -1186,7 +1169,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A classical dance instructor in New York is revealed to be a battle-hardened RAW agent fighting al-Qaeda operatives.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=W4_ih6Rt9jU",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3700
@@ -1203,7 +1186,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An aged freedom fighter Senapathy takes the law into his own hands using ancient Varma Kalai to root out corruption.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=qPCTt-XDzdE",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4400
@@ -1220,7 +1203,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A daring TV journalist accepts a challenge from a corrupt Chief Minister to run the state for one transformative day.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=Wa2LlzZ78pg",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4300
@@ -1237,7 +1220,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A mild lawyer suffering from multiple personality disorder becomes a vigilante punishing rulebreakers using Garuda Purana.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=bzAxJDtS7zE",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4400
@@ -1254,7 +1237,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A disfigured former bodybuilder plots theatrical revenge against the pharmaceutical schemers who poisoned him.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=8uPK9Ov6Zd4",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3300
@@ -1271,7 +1254,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A loving father with an intellectual disability fights an emotional courtroom battle to retain custody of his daughter.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=AuFXIH5qWfU",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3600
@@ -1288,7 +1271,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An autistic gravedigger who grew up in a cremation ground forms an unlikely bond with an energetic con artist.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=rycv49ClLao",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -1305,7 +1288,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A hot-tempered college ruffian falls deeply in love with a timid Brahmin girl, leading to harrowing mental tragedy.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=MVjd7kbSdp4",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -1322,7 +1305,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A fierce rebel leader abducts the wife of a police superintendent, leading to a clash in deep rainforests.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=OzRUuZ_zj00",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3200
@@ -1339,7 +1322,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A modern-day Karna and Duryodhana dynamic unfolds as an abandoned child becomes the fiercest warrior of a slum boss.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=L-vDX9lHZM4",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4500
@@ -1356,7 +1339,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A village bride moves heaven and earth to rescue her cryptographer husband who has been kidnapped by militants in Kashmir.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=djnHkj0Ic24",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -1373,7 +1356,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An interfaith couple flees to Bombay hoping for peace, only to be caught in the 1993 citywide communal riots.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=vIZmPQaDuI8",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4100
@@ -1390,7 +1373,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A young couple elopes against their parents' wishes and faces the harsh emotional realities of early marriage.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=BRFdGc3ku-k",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -1407,7 +1390,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An adopted daughter travels to war-torn Sri Lanka accompanied by her parents to meet her biological mother.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=z5xjbix1Gwg",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3800
@@ -1424,7 +1407,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two ambitious modern youths in Mumbai enter a live-in relationship while agreeing never to marry.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=TjJbdcKKlnU",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3300
@@ -1441,7 +1424,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The epic saga of friendship and political rivalry between a charismatic cinema idol and a passionate writer-poet.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=A7TnX7jUPUQ",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3700
@@ -1458,7 +1441,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A rural rooster-fighting handler finds himself the target of his envious mentor's insidious schemes.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=GDA-PZjqjeA",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3800
@@ -1475,7 +1458,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A young unemployed man's cherished motorcycle is stolen, dragging him into an underworld gang war.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=kd6bNu1Hq3Q",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3500
@@ -1492,7 +1475,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An unemployed civil engineer endures years of societal mockery before landing a project and proving his worth.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=fZOwwAzI9jM",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 4100
@@ -1509,7 +1492,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A food delivery worker copes with guilt and loneliness while finding comfort in his childhood best friend Shobana.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=tNnPHz1u3RM",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3800
@@ -1526,7 +1509,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A former British-Indian army soldier turns into a revolutionary dacoit fighting colonial oppressors.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=ujhWbKP1rKA",
     "featured": true,
     "average_rating": 4.7,
     "rating_count": 3200
@@ -1543,7 +1526,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An emotionless military doctor leads an eccentric crew to track down an international human trafficking syndicate.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=oQiH_Iw0kDs",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3900
@@ -1662,7 +1645,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A schoolteacher wages an agonizing legal battle when her gentle father is accused of involvement in a terrible crime.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=4_73N1iGkCU",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3600
@@ -1679,7 +1662,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A devoted paternal uncle's life is shattered when his niece goes missing in a town terrorized by predators.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=T0C5I90Y-sA",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 3900
@@ -1985,7 +1968,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A fiercely loyal confidant is caught between devotion to his childhood benefactor and defending absolute truth.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=B2yC1jpAYvQ",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 3200
@@ -2104,7 +2087,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An aspiring assistant director falls in love with his Christian landlord's daughter despite conservative family pushback.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=hKuSjEQRS84",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -2155,7 +2138,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A wealthy businessman with short-term memory loss uses polaroid photos and body tattoos to hunt his lover's killer.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=tlvrGfHbPsw",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4300
@@ -2512,7 +2495,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A three-generation generational blood feud erupts between rival coal mafia families in Dhanbad.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=XuK5TAEIqfg",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4500
@@ -2716,7 +2699,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A murdered lover is reincarnated as a common housefly to protect his beloved and avenge his death.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=x-1ZoU1xB4I",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 4100
@@ -2733,7 +2716,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A retired 36-year-old cricketer returns to the sport to buy an Indian team jersey for his adoring young son.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=AjAe_Q1WZ_8",
     "featured": true,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -2886,7 +2869,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A Phoenix secretary on the run checks into a secluded motel run by a polite but deeply disturbed young man.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=Wz719b9QUqY",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3910
@@ -3022,7 +3005,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "In the slums of Rio de Janeiro, two boys take separate paths: one strives to become a photographer, the other a drug lord.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=dcUOO4Itgmw",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 4014
@@ -3056,7 +3039,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "After being kidnapped and imprisoned for fifteen years for unknown reasons, a desperate man is given five days to find his captor.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=tAaBkFChaRg",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 4040
@@ -3175,7 +3158,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two deeply connected childhood sweethearts in Seoul are reunited for one fateful week in New York twenty-four years later.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=kA244xewjcI",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 4131
@@ -3209,7 +3192,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The incredible tale of Bella Baxter, a young woman brought back to life by an unorthodox scientist, who sets out to explore the world.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=_klfx5sGzFk",
     "featured": true,
     "average_rating": 4.8,
     "rating_count": 4157
@@ -3226,7 +3209,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An honest engineer faces betrayal and family ruin but rises to monumental success while navigating a feud with a vengeful rival.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=8U9t5xMElN0",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3200
@@ -3243,7 +3226,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A psychiatrist uncovers supernatural psychological phenomena affecting a woman possessed by an ancient dancer inside an old palace.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=QaheOBHOJOs",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 2900
@@ -3362,7 +3345,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two young non-resident Indians fall in love on a European holiday, and the young man sets out to win over her traditional father.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=cmax1C1p660",
     "featured": false,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -3379,7 +3362,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A retired police officer hires two daring ex-convicts to capture the ruthless dacoit Gabbar Singh who slaughtered his entire family.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=fefaxq2nXoE",
     "featured": false,
     "average_rating": 4.9,
     "rating_count": 4500
@@ -3396,7 +3379,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Three childhood friends take a transformative bachelor road trip across Spain, confronting personal fears and discovering purpose.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=FJrpcDgC3zU",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3600
@@ -3515,7 +3498,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A warrior from 400 years ago is reincarnated in modern times to protect his true love from their ancient nemesis.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=NXfhuqDNxg4",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3400
@@ -3532,7 +3515,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A brilliant but short-tempered house surgeon plunges into self-destruction after his girlfriend is forced to marry another.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=aozErj9NqeE",
     "featured": false,
     "average_rating": 4.6,
     "rating_count": 3100
@@ -3549,7 +3532,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The turbulent life, monumental stardom, and tragic heartbreak of legendary South Indian actress Savitri.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=OrnYMmWBuV4",
     "featured": false,
     "average_rating": 4.9,
     "rating_count": 3200
@@ -3566,7 +3549,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An orphan Indian army lieutenant stationed in Kashmir receives anonymous letters from a woman named Sita, sparking an epic romance.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=Ljk6tGZ1l3A",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3000
@@ -3685,7 +3668,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A journalist attempts to piece together the truth about a coastal Karnataka murder through five conflicting perspectives.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=POJ_6EtGeMw",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2500
@@ -3702,7 +3685,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "Two inseparable friends rise through the ranks of the Mangalore underworld, until ego and paranoia turn them against each other.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=BnuDHJcSd0Q",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2700
@@ -3719,7 +3702,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "The story of Henry Hill and his life in the mafia mob, covering his relationship with his wife and his ruthless mob partners.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=2ilzidi_J8Q",
     "featured": false,
     "average_rating": 4.9,
     "rating_count": 4200
@@ -3736,7 +3719,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A mentally unstable veteran works as a nighttime taxi driver in New York City where the perceived decadence fuels his violent urges.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=T5IligQP7Fo",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 3900
@@ -3804,7 +3787,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "An Emishi prince finds himself in the middle of a conflict between forest gods and a tatara mining town.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=4OiMOHRDs14",
     "featured": false,
     "average_rating": 4.9,
     "rating_count": 3800
@@ -3855,7 +3838,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A year in the life of a middle-class family maid in Mexico City during the tumultuous early 1970s.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=6BS27ngZtxg",
     "featured": false,
     "average_rating": 4.8,
     "rating_count": 2800
@@ -3872,7 +3855,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "A young German soldier terrifying experiences and disillusionment on the Western Front during World War I.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=hf8EYbVxtCY",
     "featured": false,
     "average_rating": 4.7,
     "rating_count": 3100
@@ -3889,7 +3872,7 @@ export const MOVIES_DATASET: MovieSeed[] = [
     "description": "In post-war Rome, an impoverished father and his young son search for the stolen bicycle vital for his employment.",
     "poster_url": "",
     "backdrop_url": "",
-    "trailer_url": "",
+    "trailer_url": "https://www.youtube.com/watch?v=H2P4xo9kmPM",
     "featured": false,
     "average_rating": 4.9,
     "rating_count": 3300

@@ -25,10 +25,10 @@ export interface MovieItem {
   backdrop_url: string;
   trailer_url: string;
   featured: boolean;
-  created_at: string;
+  created_at?: string;
   average_rating: number;
   rating_count: number;
-  reviews_count: number;
+  reviews_count?: number;
   in_watchlist?: boolean;
   user_rating?: number;
 }
