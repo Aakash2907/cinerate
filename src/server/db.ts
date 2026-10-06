@@ -1036,12 +1036,24 @@ export async function upsertRating(userId: number, movieId: number, ratingVal: n
   }
 
   const movieRatings = localStore.ratings.filter((r) => r.movie_id === movieId);
-  const avg = Number((movieRatings.reduce((sum, r) => sum + r.rating, 0) / movieRatings.length).toFixed(1));
+  const targetMovie = localStore.movies.find((m) => m.id === movieId);
+  const stats = targetMovie ? attachMovieStats(targetMovie, userId) : null;
+  const avg: number = stats && typeof stats.average_rating === 'number'
+    ? stats.average_rating
+    : Number((movieRatings.reduce((sum, r) => sum + r.rating, 0) / movieRatings.length).toFixed(1));
+  const totalCount: number = stats && typeof stats.rating_count === 'number'
+    ? stats.rating_count
+    : movieRatings.length;
+
+  if (targetMovie) {
+    targetMovie.average_rating = avg;
+    targetMovie.rating_count = totalCount;
+  }
 
   return {
     rating: existing,
     averageRating: avg,
-    totalRatings: movieRatings.length,
+    totalRatings: totalCount,
   };
 }
 

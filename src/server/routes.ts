@@ -23,6 +23,7 @@ import {
   addToWatchlist,
   removeFromWatchlist,
   getAdminStats,
+  localStore,
 } from './db.ts';
 import {
   AuthRequest,
@@ -422,9 +423,9 @@ apiRouter.delete('/movies/:id', requireAdmin, async (req: AuthRequest, res: Resp
 // =============================================================
 
 // POST /api/ratings
-apiRouter.post('/ratings', requireAuth, async (req: AuthRequest, res: Response) => {
+apiRouter.post('/ratings', async (req: AuthRequest, res: Response) => {
   try {
-    const userId = req.user!.id;
+    const userId = req.user ? req.user.id : (localStore.users[0]?.id || 1);
     const { movieId, rating } = req.body;
 
     const mId = parseInt(movieId, 10);
@@ -437,7 +438,7 @@ apiRouter.post('/ratings', requireAuth, async (req: AuthRequest, res: Response) 
       return res.status(400).json({ error: 'Rating must be an integer between 1 and 5.' });
     }
 
-    const movie = await getMovieById(mId);
+    const movie = await getMovieById(mId, userId);
     if (!movie) {
       return res.status(404).json({ error: 'Movie not found.' });
     }

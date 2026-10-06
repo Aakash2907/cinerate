@@ -46,11 +46,12 @@ export const RatingStars: React.FC<RatingStarsProps> = ({
               onClick={() => interactive && onRate && onRate(starValue)}
               onMouseEnter={() => interactive && setHoverRating(starValue)}
               onMouseLeave={() => interactive && setHoverRating(null)}
+              aria-label={interactive ? `Rate ${starValue} star${starValue > 1 ? 's' : ''}` : `${rating} stars`}
               className={`${
                 interactive
-                  ? 'cursor-pointer hover:scale-110 active:scale-95 transition-transform'
+                  ? 'cursor-pointer hover:scale-115 active:scale-95 transition-transform'
                   : 'cursor-default'
-              } p-0.5 focus:outline-none focus:ring-1 focus:ring-amber-400 rounded`}
+              } p-1 sm:p-0.5 focus:outline-none focus:ring-1 focus:ring-amber-400 rounded`}
               title={interactive ? `Rate ${starValue} star${starValue > 1 ? 's' : ''}` : `${rating} stars`}
             >
               <Star

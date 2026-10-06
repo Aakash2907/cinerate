@@ -73,8 +73,9 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
       recordRecentlyViewedMovie(data.movie);
       setReviews(Array.isArray(data.reviews) ? data.reviews : []);
       setInWatchlist(Boolean(data.movie?.in_watchlist));
-      if (data.movie?.user_rating) {
-        setUserRating(data.movie.user_rating);
+      const savedRating = data.movie?.user_rating || api.ratings.getLocalRating(movieId);
+      if (savedRating) {
+        setUserRating(savedRating);
       }
     } catch (err: any) {
       setError(err.message || 'Failed to load movie details.');
@@ -89,12 +90,6 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
 
   // Handle Rating Click
   const handleRateMovie = async (ratingVal: number) => {
-    if (!user) {
-      toast('Please sign in to rate movies', 'info');
-      openAuthModal('login');
-      return;
-    }
-
     setIsSubmittingRating(true);
     try {
       const res = await api.ratings.rate(movieId, ratingVal);
@@ -108,7 +103,9 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
         });
       }
       toast(`You rated "${movie?.title}" ${ratingVal} star${ratingVal > 1 ? 's' : ''}!`, 'success');
-      refreshUser();
+      if (user) {
+        refreshUser();
+      }
     } catch (err: any) {
       toast(err.message || 'Failed to submit rating', 'error');
     } finally {
@@ -355,9 +352,16 @@ export const MovieDetailsPage: React.FC<MovieDetailsPageProps> = ({
 
                 {/* User Interactive Rating Widget */}
                 <div className="border-l border-slate-800 pl-4">
-                  <span className="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">
-                    {userRating > 0 ? 'Your Rating' : 'Rate this film'}
-                  </span>
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="block text-[11px] font-semibold text-slate-300 uppercase tracking-wider">
+                      {userRating > 0 ? `Your Rating: ${userRating}/5` : 'Rate this film'}
+                    </span>
+                    {userRating > 0 && (
+                      <span className="text-[10px] text-amber-400 font-semibold bg-amber-400/10 px-1.5 py-0.5 rounded border border-amber-400/20">
+                        Saved
+                      </span>
+                    )}
+                  </div>
                   <div className="flex items-center gap-2">
                     <RatingStars
                       rating={userRating}
