@@ -1,4 +1,4 @@
-import { Review, Rating, User } from '../server/db.ts';
+import type { Review, Rating, User } from '../server/db.ts';
 
 export const COMMUNITY_USERS: User[] = [
   {

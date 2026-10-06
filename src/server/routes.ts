@@ -1,4 +1,4 @@
-import { Router, Request, Response } from 'express';
+import { Router, type Request, type Response } from 'express';
 import bcrypt from 'bcryptjs';
 import {
   createUser,
@@ -26,7 +26,7 @@ import {
   localStore,
 } from './db.ts';
 import {
-  AuthRequest,
+  type AuthRequest,
   generateToken,
   setAuthCookie,
   clearAuthCookie,

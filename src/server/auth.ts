@@ -1,6 +1,6 @@
-import { Request, Response, NextFunction } from 'express';
+import type { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import { User, getUserById, getUserByEmail, localStore } from './db.ts';
+import { type User, getUserById, getUserByEmail, localStore } from './db.ts';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'cinerate_super_secure_jwt_secret_key_2026_change_in_production';
 const COOKIE_NAME = 'cinerate_token';
