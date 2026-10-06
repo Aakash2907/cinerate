@@ -32,9 +32,9 @@ CREATE TABLE movies (
     duration VARCHAR(50) NOT NULL,
     director VARCHAR(150) NOT NULL,
     cast_members TEXT NOT NULL,
-    poster_url TEXT NOT NULL,
-    backdrop_url TEXT NOT NULL,
-    trailer_url TEXT NOT NULL,
+    poster_url TEXT DEFAULT '',
+    backdrop_url TEXT DEFAULT '',
+    trailer_url TEXT DEFAULT '',
     featured BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
